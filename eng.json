@@ -117,12 +117,24 @@
     "stageTooltip": "Stage change",
     "commitPlaceholder": "Commit message...",
     "authorInfo": "Author Information",
+    "customizeAuthor": "Customize author info",
     "show": "Show",
     "hide": "Hide",
     "namePlaceholder": "Name",
     "emailPlaceholder": "Email",
     "commitButton": "Commit in {{branch}}",
-    "commitButtonLoading": "Committing..."
+    "commitButtonLoading": "Committing...",
+    "changesTab": "Changes",
+    "historyTab": "History",
+    "branchLabel": "Branch",
+    "checkoutBranch": "Checkout Branch",
+    "checkoutCommit": "Checkout Commit",
+    "detachedHeadWarning": "You are in a detached HEAD state. Code modifications will not be saved to any branch.",
+    "restoreBranch": "Restore Branch",
+    "commitDetails": "Commit Details",
+    "commitHistory": "Commit History",
+    "author": "Author",
+    "date": "Date"
   },
   "menu": {
     "file": {

@@ -117,12 +117,24 @@
     "stageTooltip": "Adicionar ao staged",
     "commitPlaceholder": "Mensagem de commit...",
     "authorInfo": "Informações do autor",
+    "customizeAuthor": "Personalizar informações do autor",
     "show": "Mostrar",
     "hide": "Ocultar",
     "namePlaceholder": "Nome",
     "emailPlaceholder": "Email",
     "commitButton": "Commit em {{branch}}",
-    "commitButtonLoading": "Efetuando commit..."
+    "commitButtonLoading": "Efetuando commit...",
+    "changesTab": "Alterações",
+    "historyTab": "Histórico",
+    "branchLabel": "Branch",
+    "checkoutBranch": "Trocar para Branch",
+    "checkoutCommit": "Trocar para commit",
+    "detachedHeadWarning": "Você está em um estado de HEAD destacado. As modificações de código não serão salvas em nenhum branch.",
+    "restoreBranch": "Restaurar Branch",
+    "commitDetails": "Detalhes do commit",
+    "commitHistory": "Histórico de commits",
+    "author": "Autor",
+    "date": "Data"
   },
   "menu": {
     "file": {

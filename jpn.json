@@ -117,12 +117,24 @@
     "stageTooltip": "ステージに追加",
     "commitPlaceholder": "コミットメッセージ...",
     "authorInfo": "作成者情報",
+    "customizeAuthor": "著者情報をカスタマイズ",
     "show": "表示",
     "hide": "非表示",
     "namePlaceholder": "名前",
     "emailPlaceholder": "メール",
     "commitButton": "{{branch}} にコミット",
-    "commitButtonLoading": "コミット中..."
+    "commitButtonLoading": "コミット中...",
+    "changesTab": "変更",
+    "historyTab": "履歴",
+    "branchLabel": "ブランチ",
+    "checkoutBranch": "ブランチをチェックアウト",
+    "checkoutCommit": "コミットをチェックアウト",
+    "detachedHeadWarning": "あなたは detached HEAD の状態にあります。コードの変更はどのブランチにも保存されません。",
+    "restoreBranch": "ブランチを復元",
+    "commitDetails": "コミットの詳細",
+    "commitHistory": "コミット履歴",
+    "author": "作成者",
+    "date": "日付"
   },
   "menu": {
     "file": {

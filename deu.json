@@ -117,12 +117,24 @@
     "stageTooltip": "Änderung zum Staging hinzufügen",
     "commitPlaceholder": "Commit-Nachricht...",
     "authorInfo": "Autoreninformation",
+    "customizeAuthor": "Autoreninformationen anpassen",
     "show": "Anzeigen",
     "hide": "Ausblenden",
     "namePlaceholder": "Name",
     "emailPlaceholder": "E-Mail",
     "commitButton": "Commit auf {{branch}}",
-    "commitButtonLoading": "Wird committet..."
+    "commitButtonLoading": "Wird committet...",
+    "changesTab": "Änderungen",
+    "historyTab": "Verlauf",
+    "branchLabel": "Branch",
+    "checkoutBranch": "Branch auschecken",
+    "checkoutCommit": "Commit auschecken",
+    "detachedHeadWarning": "Sie befinden sich in einem detached HEAD-Zustand. Codeänderungen werden in keinem Branch gespeichert.",
+    "restoreBranch": "Branch wiederherstellen",
+    "commitDetails": "Commit-Details",
+    "commitHistory": "Commit-Verlauf",
+    "author": "Autor",
+    "date": "Datum"
   },
   "menu": {
     "file": {

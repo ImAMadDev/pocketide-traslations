@@ -117,12 +117,24 @@
     "stageTooltip": "暂存更改",
     "commitPlaceholder": "提交信息...",
     "authorInfo": "作者信息",
+    "customizeAuthor": "自定义作者信息",
     "show": "显示",
     "hide": "隐藏",
     "namePlaceholder": "名称",
     "emailPlaceholder": "邮箱",
     "commitButton": "提交到 {{branch}}",
-    "commitButtonLoading": "提交中..."
+    "commitButtonLoading": "提交中...",
+    "changesTab": "更改",
+    "historyTab": "历史",
+    "branchLabel": "分支",
+    "checkoutBranch": "切换分支",
+    "checkoutCommit": "检出提交",
+    "detachedHeadWarning": "您处于 detached HEAD 状态。代码修改将不会保存到任何分支。",
+    "restoreBranch": "恢复分支",
+    "commitDetails": "提交详情",
+    "commitHistory": "提交历史",
+    "author": "作者",
+    "date": "日期"
   },
   "menu": {
     "file": {

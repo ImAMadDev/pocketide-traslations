@@ -117,12 +117,24 @@
     "stageTooltip": "Добавить в индекс",
     "commitPlaceholder": "Сообщение коммита...",
     "authorInfo": "Информация об авторе",
+    "customizeAuthor": "Настроить информацию об авторе",
     "show": "Показать",
     "hide": "Скрыть",
     "namePlaceholder": "Имя",
     "emailPlaceholder": "Email",
     "commitButton": "Закоммитить в {{branch}}",
-    "commitButtonLoading": "Коммиция..."
+    "commitButtonLoading": "Коммиция...",
+    "changesTab": "Изменения",
+    "historyTab": "История",
+    "branchLabel": "Ветка",
+    "checkoutBranch": "Переключиться на ветку",
+    "checkoutCommit": "Переключиться на коммит",
+    "detachedHeadWarning": "Вы находитесь в состоянии detached HEAD. Изменения кода не будут сохранены ни в одной ветке.",
+    "restoreBranch": "Восстановить ветку",
+    "commitDetails": "Детали коммита",
+    "commitHistory": "История коммитов",
+    "author": "Автор",
+    "date": "Дата"
   },
   "menu": {
     "file": {

@@ -117,12 +117,24 @@
     "stageTooltip": "Aggiungi allo staging",
     "commitPlaceholder": "Messaggio di commit...",
     "authorInfo": "Informazioni autore",
+    "customizeAuthor": "Personalizza le informazioni dell'autore",
     "show": "Mostra",
     "hide": "Nascondi",
     "namePlaceholder": "Nome",
     "emailPlaceholder": "Email",
     "commitButton": "Commit su {{branch}}",
-    "commitButtonLoading": "Commit in corso..."
+    "commitButtonLoading": "Commit in corso...",
+    "changesTab": "Modifiche",
+    "historyTab": "Cronologia",
+    "branchLabel": "Branch",
+    "checkoutBranch": "Passa al branch",
+    "checkoutCommit": "Passa al commit",
+    "detachedHeadWarning": "Sei in uno stato di HEAD distaccato. Le modifiche al codice non verranno salvate in nessun ramo.",
+    "restoreBranch": "Ripristina ramo",
+    "commitDetails": "Dettagli del commit",
+    "commitHistory": "Cronologia dei commit",
+    "author": "Autore",
+    "date": "Data"
   },
   "menu": {
     "file": {

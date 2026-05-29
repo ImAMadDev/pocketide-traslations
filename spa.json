@@ -117,12 +117,24 @@
     "stageTooltip": "Añadir al área de preparación",
     "commitPlaceholder": "Mensaje de commit...",
     "authorInfo": "Información del autor",
+    "customizeAuthor": "Personalizar información del autor",
     "show": "Mostrar",
     "hide": "Ocultar",
     "namePlaceholder": "Nombre",
     "emailPlaceholder": "Correo electrónico",
     "commitButton": "Commit en {{branch}}",
-    "commitButtonLoading": "Confirmando..."
+    "commitButtonLoading": "Confirmando...",
+    "changesTab": "Cambios",
+    "historyTab": "Historial",
+    "branchLabel": "Rama",
+    "checkoutBranch": "Cambiar a rama",
+    "checkoutCommit": "Cambiar a commit",
+    "detachedHeadWarning": "Estás en un estado de HEAD separado. Las modificaciones del código no se guardarán en ninguna rama.",
+    "restoreBranch": "Restaurar rama",
+    "commitDetails": "Detalles del commit",
+    "commitHistory": "Historial de commits",
+    "author": "Autor",
+    "date": "Fecha"
   },
   "menu": {
     "file": {

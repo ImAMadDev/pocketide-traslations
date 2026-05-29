@@ -117,12 +117,24 @@
     "stageTooltip": "Ajouter au staging",
     "commitPlaceholder": "Message de commit...",
     "authorInfo": "Informations sur l'auteur",
+    "customizeAuthor": "Personnaliser les informations de l'auteur",
     "show": "Afficher",
     "hide": "Masquer",
     "namePlaceholder": "Nom",
     "emailPlaceholder": "E-mail",
     "commitButton": "Valider sur {{branch}}",
-    "commitButtonLoading": "Validation en cours..."
+    "commitButtonLoading": "Validation en cours...",
+    "changesTab": "Modifications",
+    "historyTab": "Historique",
+    "branchLabel": "Branche",
+    "checkoutBranch": "Basculer vers la branche",
+    "checkoutCommit": "Basculer vers le commit",
+    "detachedHeadWarning": "Vous êtes en état de HEAD détaché. Les modifications du code ne seront enregistrées sur aucune branche.",
+    "restoreBranch": "Restaurer la branche",
+    "commitDetails": "Détails du commit",
+    "commitHistory": "Historique des commits",
+    "author": "Auteur",
+    "date": "Date"
   },
   "menu": {
     "file": {

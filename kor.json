@@ -117,12 +117,24 @@
     "stageTooltip": "스테이지에 추가",
     "commitPlaceholder": "커밋 메시지...",
     "authorInfo": "작성자 정보",
+    "customizeAuthor": "작성자 정보 사용자 지정",
     "show": "표시",
     "hide": "숨기기",
     "namePlaceholder": "이름",
     "emailPlaceholder": "이메일",
     "commitButton": "{{branch}}에 커밋",
-    "commitButtonLoading": "커밋 중..."
+    "commitButtonLoading": "커밋 중...",
+    "changesTab": "변경",
+    "historyTab": "기록",
+    "branchLabel": "브랜치",
+    "checkoutBranch": "브랜치로 전환",
+    "checkoutCommit": "커밋으로 전환",
+    "detachedHeadWarning": "현재 detached HEAD 상태입니다. 코드 변경 사항은 어떤 브랜치에도 저장되지 않습니다.",
+    "restoreBranch": "브랜치 복원",
+    "commitDetails": "커밋 상세",
+    "commitHistory": "커밋 기록",
+    "author": "작성자",
+    "date": "날짜"
   },
   "menu": {
     "file": {

@@ -117,12 +117,24 @@
     "stageTooltip": "Thêm vào staged",
     "commitPlaceholder": "Thông điệp commit...",
     "authorInfo": "Thông tin tác giả",
+    "customizeAuthor": "Tùy chỉnh thông tin tác giả",
     "show": "Hiện",
     "hide": "Ẩn",
     "namePlaceholder": "Tên",
     "emailPlaceholder": "Email",
     "commitButton": "Commit vào {{branch}}",
-    "commitButtonLoading": "Đang commit..."
+    "commitButtonLoading": "Đang commit...",
+    "changesTab": "Thay đổi",
+    "historyTab": "Lịch sử",
+    "branchLabel": "Nhánh",
+    "checkoutBranch": "Chuyển sang nhánh",
+    "checkoutCommit": "Chuyển sang commit",
+    "detachedHeadWarning": "Bạn đang ở trạng thái detached HEAD. Các thay đổi mã sẽ không được lưu vào bất kỳ nhánh nào.",
+    "restoreBranch": "Khôi phục nhánh",
+    "commitDetails": "Chi tiết commit",
+    "commitHistory": "Lịch sử commit",
+    "author": "Tác giả",
+    "date": "Ngày"
   },
   "menu": {
     "file": {

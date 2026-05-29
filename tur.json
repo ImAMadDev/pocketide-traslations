@@ -117,12 +117,24 @@
     "stageTooltip": "Sahneye al",
     "commitPlaceholder": "Commit mesajı...",
     "authorInfo": "Yazar bilgisi",
+    "customizeAuthor": "Yazar bilgilerini özelleştir",
     "show": "Göster",
     "hide": "Gizle",
     "namePlaceholder": "İsim",
     "emailPlaceholder": "E-posta",
     "commitButton": "{{branch}} dalına commit et",
-    "commitButtonLoading": "Commit yapılıyor..."
+    "commitButtonLoading": "Commit yapılıyor...",
+    "changesTab": "Değişiklikler",
+    "historyTab": "Geçmiş",
+    "branchLabel": "Dal",
+    "checkoutBranch": "Dala geç",
+    "checkoutCommit": "Commit'e geç",
+    "detachedHeadWarning": "Detached HEAD durumundasınız. Kod değişiklikleri hiçbir dala kaydedilmeyecektir.",
+    "restoreBranch": "Dalı geri yükle",
+    "commitDetails": "Commit ayrıntıları",
+    "commitHistory": "Commit geçmişi",
+    "author": "Yazar",
+    "date": "Tarih"
   },
   "menu": {
     "file": {
