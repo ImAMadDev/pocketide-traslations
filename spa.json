@@ -230,6 +230,7 @@
     "errorDelete": "Error al eliminar: {{err}}",
     "errorCreate": "Error al crear: {{err}}",
     "errorRename": "Error al renombrar: {{err}}",
+    "errorMove": "Error al mover: {{err}}",
     "newFilePlaceholder": "archivo.php",
     "newFolderPlaceholder": "nueva-carpeta"
   },

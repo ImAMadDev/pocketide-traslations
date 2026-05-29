@@ -230,6 +230,7 @@
     "errorDelete": "Silme hatası: {{err}}",
     "errorCreate": "Oluşturma hatası: {{err}}",
     "errorRename": "Yeniden adlandırma hatası: {{err}}",
+    "errorMove": "Taşıma hatası: {{err}}",
     "newFilePlaceholder": "dosyaadi.php",
     "newFolderPlaceholder": "yeni-klasor"
   },

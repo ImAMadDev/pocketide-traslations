@@ -230,6 +230,7 @@
     "errorDelete": "Erro ao excluir: {{err}}",
     "errorCreate": "Erro ao criar: {{err}}",
     "errorRename": "Erro ao renomear: {{err}}",
+    "errorMove": "Erro ao mover: {{err}}",
     "newFilePlaceholder": "nomearquivo.php",
     "newFolderPlaceholder": "nova-pasta"
   },
