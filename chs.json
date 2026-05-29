@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "common": {
     "cancel": "取消",
     "confirm": "确认",
@@ -230,6 +230,7 @@
     "errorDelete": "删除出错: {{err}}",
     "errorCreate": "创建出错: {{err}}",
     "errorRename": "重命名出错: {{err}}",
+    "errorMove": "移动出错: {{err}}",
     "newFilePlaceholder": "文件名.php",
     "newFolderPlaceholder": "新建文件夹"
   },
@@ -343,7 +344,13 @@
     "unsavedOpenProjectAction": "打开另一个项目",
     "unsavedCreateProjectMsg": "当前项目中有未保存更改的文件。确定要创建另一个项目吗？",
     "unsavedCreateProjectAction": "创建另一个项目",
-    "openRecentError": "无法打开最近的项目：{{err}}"
+    "openRecentError": "无法打开最近的项目：{{err}}",
+    "loadingProjectFiles": "正在加载项目文件...",
+    "loadingLspReady": "LSP 服务器已就绪！",
+    "loadingLspStarting": "正在启动 PHP 语言服务器...",
+    "loadingLspDownloading": "正在下载 PHP/PocketMine 依赖...",
+    "loadingLspDownloaded": "依赖已下载。初始化中...",
+    "loadingProject": "正在初始化工作区..."
   },
   "server": {
     "status": {
@@ -484,7 +491,16 @@
     "redo": "重做变更",
     "selectAll": "全选",
     "goToLine": "转到行",
-    "goToDefinition": "转到定义"
+    "goToDefinition": "转到定义",
+    "fileTreeNavigate": "在资源管理器中导航文件树",
+    "fileTreeExpandCollapse": "切换文件夹/打开文件",
+    "fileTreeDelete": "删除文件/文件夹",
+    "fileTreeRename": "重命名文件/文件夹",
+    "fileTreeCopy": "复制文件/文件夹",
+    "fileTreeCut": "剪切文件/文件夹",
+    "fileTreePaste": "粘贴文件/文件夹",
+    "fileTreeNewFile": "在资源管理器中新建文件",
+    "fileTreeNewFolder": "在资源管理器中新建文件夹"
   },
   "versionManager": {
     "title": "PocketMine-MP 版本管理器",

@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "common": {
     "cancel": "Отмена",
     "confirm": "Подтвердить",
@@ -230,6 +230,7 @@
     "errorDelete": "Ошибка удаления: {{err}}",
     "errorCreate": "Ошибка создания: {{err}}",
     "errorRename": "Ошибка переименования: {{err}}",
+    "errorMove": "Ошибка перемещения: {{err}}",
     "newFilePlaceholder": "filename.php",
     "newFolderPlaceholder": "new-folder"
   },
@@ -343,7 +344,13 @@
     "unsavedOpenProjectAction": "Открыть другой проект",
     "unsavedCreateProjectMsg": "У вас есть файлы с несохраненными изменениями в текущем проекте. Вы уверены, что хотите создать другой проект?",
     "unsavedCreateProjectAction": "Создать другой проект",
-    "openRecentError": "Не удалось открыть последний проект: {{err}}"
+    "openRecentError": "Не удалось открыть последний проект: {{err}}",
+    "loadingProjectFiles": "Загрузка файлов проекта...",
+    "loadingLspReady": "Сервер LSP готов!",
+    "loadingLspStarting": "Запуск PHP Language Server...",
+    "loadingLspDownloading": "Скачивание зависимостей PHP/PocketMine...",
+    "loadingLspDownloaded": "Зависимости загружены. Инициализация...",
+    "loadingProject": "Инициализация рабочего пространства..."
   },
   "server": {
     "status": {
@@ -484,7 +491,16 @@
     "redo": "Повторить изменение",
     "selectAll": "Выделить всё",
     "goToLine": "Перейти к строке",
-    "goToDefinition": "Перейти к определению"
+    "goToDefinition": "Перейти к определению",
+    "fileTreeNavigate": "Навигация по дереву файлов (проводник)",
+    "fileTreeExpandCollapse": "Переключить папку / Открыть файл",
+    "fileTreeDelete": "Удалить файл/папку",
+    "fileTreeRename": "Переименовать файл/папку",
+    "fileTreeCopy": "Копировать файл/папку",
+    "fileTreeCut": "Вырезать файл/папку",
+    "fileTreePaste": "Вставить файл/папку",
+    "fileTreeNewFile": "Новый файл в проводнике",
+    "fileTreeNewFolder": "Новая папка в проводнике"
   },
   "versionManager": {
     "title": "Менеджер версий PocketMine-MP",

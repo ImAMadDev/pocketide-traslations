@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "common": {
     "cancel": "Cancelar",
     "confirm": "Confirmar",
@@ -343,7 +343,13 @@
     "unsavedOpenProjectAction": "Abrir outro projeto",
     "unsavedCreateProjectMsg": "Você tem arquivos com alterações não salvas no projeto atual. Tem certeza que deseja criar outro projeto?",
     "unsavedCreateProjectAction": "Criar outro projeto",
-    "openRecentError": "Não foi possível abrir projeto recente: {{err}}"
+    "openRecentError": "Não foi possível abrir projeto recente: {{err}}",
+    "loadingProjectFiles": "Carregando arquivos do projeto...",
+    "loadingLspReady": "Servidor LSP pronto!",
+    "loadingLspStarting": "Iniciando servidor de Linguagem PHP...",
+    "loadingLspDownloading": "Baixando dependências PHP/PocketMine...",
+    "loadingLspDownloaded": "Dependências baixadas. Inicializando...",
+    "loadingProject": "Inicializando workspace..."
   },
   "server": {
     "status": {
@@ -484,7 +490,16 @@
     "redo": "Refazer alteração",
     "selectAll": "Selecionar tudo",
     "goToLine": "Ir para a linha",
-    "goToDefinition": "Ir para definição"
+    "goToDefinition": "Ir para definição",
+    "fileTreeNavigate": "Navegar árvore de arquivos (explorador)",
+    "fileTreeExpandCollapse": "Alternar pasta / Abrir arquivo",
+    "fileTreeDelete": "Excluir arquivo/pasta",
+    "fileTreeRename": "Renomear arquivo/pasta",
+    "fileTreeCopy": "Copiar arquivo/pasta",
+    "fileTreeCut": "Recortar arquivo/pasta",
+    "fileTreePaste": "Colar arquivo/pasta",
+    "fileTreeNewFile": "Novo arquivo no explorador",
+    "fileTreeNewFolder": "Nova pasta no explorador"
   },
   "versionManager": {
     "title": "Gerenciador de versões PocketMine-MP",

@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "common": {
     "cancel": "Hủy",
     "confirm": "Xác nhận",
@@ -230,6 +230,7 @@
     "errorDelete": "Lỗi khi xóa: {{err}}",
     "errorCreate": "Lỗi khi tạo: {{err}}",
     "errorRename": "Lỗi khi đổi tên: {{err}}",
+    "errorMove": "Lỗi khi di chuyển: {{err}}",
     "newFilePlaceholder": "tenfile.php",
     "newFolderPlaceholder": "thu-muc-moi"
   },
@@ -343,7 +344,13 @@
     "unsavedOpenProjectAction": "Mở dự án khác",
     "unsavedCreateProjectMsg": "Bạn có tệp chưa lưu trong dự án hiện tại. Bạn có chắc muốn tạo dự án khác không?",
     "unsavedCreateProjectAction": "Tạo dự án khác",
-    "openRecentError": "Không thể mở dự án gần đây: {{err}}"
+    "openRecentError": "Không thể mở dự án gần đây: {{err}}",
+    "loadingProjectFiles": "Đang tải tệp dự án...",
+    "loadingLspReady": "Máy chủ LSP đã sẵn sàng!",
+    "loadingLspStarting": "Đang khởi động PHP Language Server...",
+    "loadingLspDownloading": "Đang tải phụ thuộc PHP/PocketMine...",
+    "loadingLspDownloaded": "Đã tải phụ thuộc. Đang khởi tạo...",
+    "loadingProject": "Đang khởi tạo workspace..."
   },
   "server": {
     "status": {
@@ -484,7 +491,16 @@
     "redo": "Làm lại thay đổi",
     "selectAll": "Chọn tất cả",
     "goToLine": "Đi tới dòng",
-    "goToDefinition": "Đi tới định nghĩa"
+    "goToDefinition": "Đi tới định nghĩa",
+    "fileTreeNavigate": "Điều hướng cây tệp (trình khám phá)",
+    "fileTreeExpandCollapse": "Bật/tắt thư mục / Mở tệp",
+    "fileTreeDelete": "Xóa tệp/thư mục",
+    "fileTreeRename": "Đổi tên tệp/thư mục",
+    "fileTreeCopy": "Sao chép tệp/thư mục",
+    "fileTreeCut": "Cắt tệp/thư mục",
+    "fileTreePaste": "Dán tệp/thư mục",
+    "fileTreeNewFile": "Tệp mới trong trình khám phá",
+    "fileTreeNewFolder": "Thư mục mới trong trình khám phá"
   },
   "versionManager": {
     "title": "Trình quản lý phiên bản PocketMine-MP",

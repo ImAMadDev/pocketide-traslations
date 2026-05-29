@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "common": {
     "cancel": "Annuler",
     "confirm": "Confirmer",
@@ -230,6 +230,7 @@
     "errorDelete": "Erreur lors de la suppression : {{err}}",
     "errorCreate": "Erreur lors de la création : {{err}}",
     "errorRename": "Erreur lors du renommage : {{err}}",
+    "errorMove": "Erreur lors du déplacement : {{err}}",
     "newFilePlaceholder": "fichier.php",
     "newFolderPlaceholder": "nouveau-dossier"
   },
@@ -343,7 +344,13 @@
     "unsavedOpenProjectAction": "Ouvrir un autre projet",
     "unsavedCreateProjectMsg": "Vous avez des fichiers avec des modifications non enregistrées dans le projet actuel. Êtes-vous sûr de vouloir créer un autre projet ?",
     "unsavedCreateProjectAction": "Créer un autre projet",
-    "openRecentError": "Impossible d'ouvrir le projet récent : {{err}}"
+    "openRecentError": "Impossible d'ouvrir le projet récent : {{err}}",
+    "loadingProjectFiles": "Chargement des fichiers du projet...",
+    "loadingLspReady": "Serveur LSP prêt!",
+    "loadingLspStarting": "Démarrage du serveur de langage PHP...",
+    "loadingLspDownloading": "Téléchargement des dépendances PHP/PocketMine...",
+    "loadingLspDownloaded": "Dépendances téléchargées. Initialisation...",
+    "loadingProject": "Initialisation de l'espace de travail..."
   },
   "server": {
     "status": {
@@ -484,7 +491,16 @@
     "redo": "Rétablir la modification",
     "selectAll": "Tout sélectionner",
     "goToLine": "Aller à la ligne",
-    "goToDefinition": "Aller à la définition"
+    "goToDefinition": "Aller à la définition",
+    "fileTreeNavigate": "Naviguer dans l'arborescence de fichiers (explorateur)",
+    "fileTreeExpandCollapse": "Basculer dossier / Ouvrir fichier",
+    "fileTreeDelete": "Supprimer fichier/dossier",
+    "fileTreeRename": "Renommer fichier/dossier",
+    "fileTreeCopy": "Copier fichier/dossier",
+    "fileTreeCut": "Couper fichier/dossier",
+    "fileTreePaste": "Coller fichier/dossier",
+    "fileTreeNewFile": "Nouveau fichier dans l'explorateur",
+    "fileTreeNewFolder": "Nouveau dossier dans l'explorateur"
   },
   "versionManager": {
     "title": "Gestionnaire de versions PocketMine-MP",

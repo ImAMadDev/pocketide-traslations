@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "common": {
     "cancel": "Abbrechen",
     "confirm": "Bestätigen",
@@ -230,6 +230,7 @@
     "errorDelete": "Fehler beim Löschen: {{err}}",
     "errorCreate": "Fehler beim Erstellen: {{err}}",
     "errorRename": "Fehler beim Umbenennen: {{err}}",
+    "errorMove": "Fehler beim Verschieben: {{err}}",
     "newFilePlaceholder": "datei.php",
     "newFolderPlaceholder": "neuer-ordner"
   },
@@ -343,7 +344,13 @@
     "unsavedOpenProjectAction": "Anderes Projekt öffnen",
     "unsavedCreateProjectMsg": "Du hast Dateien mit ungespeicherten Änderungen im aktuellen Projekt. Bist du sicher, dass du ein anderes Projekt erstellen möchtest?",
     "unsavedCreateProjectAction": "Anderes Projekt erstellen",
-    "openRecentError": "Konnte das zuletzt geöffnete Projekt nicht öffnen: {{err}}"
+    "openRecentError": "Konnte das zuletzt geöffnete Projekt nicht öffnen: {{err}}",
+    "loadingProjectFiles": "Projektdateien werden geladen...",
+    "loadingLspReady": "LSP-Server bereit!",
+    "loadingLspStarting": "PHP Language Server wird gestartet...",
+    "loadingLspDownloading": "Lade PHP/PocketMine-Abhängigkeiten herunter...",
+    "loadingLspDownloaded": "Abhängigkeiten heruntergeladen. Initialisierung...",
+    "loadingProject": "Arbeitsbereich wird initialisiert..."
   },
   "server": {
     "status": {
@@ -484,7 +491,16 @@
     "redo": "Änderung wiederholen",
     "selectAll": "Alles auswählen",
     "goToLine": "Zur Zeile",
-    "goToDefinition": "Zur Definition"
+    "goToDefinition": "Zur Definition",
+    "fileTreeNavigate": "Dateibaum (Explorer) navigieren",
+    "fileTreeExpandCollapse": "Ordner umschalten / Datei öffnen",
+    "fileTreeDelete": "Datei/Ordner löschen",
+    "fileTreeRename": "Datei/Ordner umbenennen",
+    "fileTreeCopy": "Datei/Ordner kopieren",
+    "fileTreeCut": "Datei/Ordner ausschneiden",
+    "fileTreePaste": "Datei/Ordner einfügen",
+    "fileTreeNewFile": "Neue Datei im Explorer",
+    "fileTreeNewFolder": "Neuer Ordner im Explorer"
   },
   "versionManager": {
     "title": "PocketMine-MP Versionsmanager",

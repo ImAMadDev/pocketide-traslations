@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "common": {
     "cancel": "취소",
     "confirm": "확인",
@@ -230,6 +230,7 @@
     "errorDelete": "삭제 오류: {{err}}",
     "errorCreate": "생성 오류: {{err}}",
     "errorRename": "이름 변경 오류: {{err}}",
+    "errorMove": "이동 중 오류 발생: {{err}}",
     "newFilePlaceholder": "파일명.php",
     "newFolderPlaceholder": "새-폴더"
   },
@@ -343,7 +344,13 @@
     "unsavedOpenProjectAction": "다른 프로젝트 열기",
     "unsavedCreateProjectMsg": "현재 프로젝트에 저장되지 않은 변경사항이 있는 파일이 있습니다. 다른 프로젝트를 생성하겠습니까?",
     "unsavedCreateProjectAction": "다른 프로젝트 생성",
-    "openRecentError": "최근 프로젝트를 열 수 없습니다: {{err}}"
+    "openRecentError": "최근 프로젝트를 열 수 없습니다: {{err}}",
+    "loadingProjectFiles": "프로젝트 파일 로드 중...",
+    "loadingLspReady": "LSP 서버 준비 완료!",
+    "loadingLspStarting": "PHP 언어 서버 시작 중...",
+    "loadingLspDownloading": "PHP/PocketMine 종속성 다운로드 중...",
+    "loadingLspDownloaded": "종속성 다운로드 완료. 초기화 중...",
+    "loadingProject": "워크스페이스 초기화 중..."
   },
   "server": {
     "status": {
@@ -484,7 +491,16 @@
     "redo": "작업 다시 실행",
     "selectAll": "전체 선택",
     "goToLine": "라인으로 이동",
-    "goToDefinition": "정의로 이동"
+    "goToDefinition": "정의로 이동",
+    "fileTreeNavigate": "파일 트리(탐색기) 탐색",
+    "fileTreeExpandCollapse": "폴더 토글 / 파일 열기",
+    "fileTreeDelete": "파일/폴더 삭제",
+    "fileTreeRename": "파일/폴더 이름 변경",
+    "fileTreeCopy": "파일/폴더 복사",
+    "fileTreeCut": "파일/폴더 잘라내기",
+    "fileTreePaste": "파일/폴더 붙여넣기",
+    "fileTreeNewFile": "탐색기에서 새 파일",
+    "fileTreeNewFolder": "탐색기에서 새 폴더"
   },
   "versionManager": {
     "title": "PocketMine-MP 버전 관리자",

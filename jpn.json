@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "common": {
     "cancel": "キャンセル",
     "confirm": "確認",
@@ -230,6 +230,7 @@
     "errorDelete": "削除エラー: {{err}}",
     "errorCreate": "作成エラー: {{err}}",
     "errorRename": "名前変更エラー: {{err}}",
+    "errorMove": "移動中にエラーが発生しました: {{err}}",
     "newFilePlaceholder": "ファイル名.php",
     "newFolderPlaceholder": "新しいフォルダー"
   },
@@ -343,7 +344,13 @@
     "unsavedOpenProjectAction": "別のプロジェクトを開く",
     "unsavedCreateProjectMsg": "現在のプロジェクトに未保存の変更があるファイルがあります。他のプロジェクトを作成してよろしいですか？",
     "unsavedCreateProjectAction": "別のプロジェクトを作成",
-    "openRecentError": "最近のプロジェクトを開けませんでした: {{err}}"
+    "openRecentError": "最近のプロジェクトを開けませんでした: {{err}}",
+    "loadingProjectFiles": "プロジェクトファイルを読み込み中...",
+    "loadingLspReady": "LSPサーバーが準備できました！",
+    "loadingLspStarting": "PHP Language Serverを起動しています...",
+    "loadingLspDownloading": "PHP/PocketMineの依存関係をダウンロードしています...",
+    "loadingLspDownloaded": "依存関係をダウンロードしました。初期化中...",
+    "loadingProject": "ワークスペースを初期化しています..."
   },
   "server": {
     "status": {
@@ -484,7 +491,16 @@
     "redo": "操作をやり直す",
     "selectAll": "すべて選択",
     "goToLine": "行へ移動",
-    "goToDefinition": "定義へ移動"
+    "goToDefinition": "定義へ移動",
+    "fileTreeNavigate": "ファイルツリーをナビゲート（エクスプローラー）",
+    "fileTreeExpandCollapse": "フォルダ切替 / ファイルを開く",
+    "fileTreeDelete": "ファイル/フォルダを削除",
+    "fileTreeRename": "ファイル/フォルダの名前を変更",
+    "fileTreeCopy": "ファイル/フォルダをコピー",
+    "fileTreeCut": "ファイル/フォルダを切り取り",
+    "fileTreePaste": "ファイル/フォルダを貼り付け",
+    "fileTreeNewFile": "エクスプローラーに新しいファイル",
+    "fileTreeNewFolder": "エクスプローラーに新しいフォルダ"
   },
   "versionManager": {
     "title": "PocketMine-MP バージョンマネージャー",

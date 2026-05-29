@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "common": {
     "cancel": "Annulla",
     "confirm": "Conferma",
@@ -230,6 +230,7 @@
     "errorDelete": "Errore eliminazione: {{err}}",
     "errorCreate": "Errore creazione: {{err}}",
     "errorRename": "Errore rinomina: {{err}}",
+    "errorMove": "Errore nello spostamento: {{err}}",
     "newFilePlaceholder": "nomefile.php",
     "newFolderPlaceholder": "nuova-cartella"
   },
@@ -343,7 +344,13 @@
     "unsavedOpenProjectAction": "Apri un altro progetto",
     "unsavedCreateProjectMsg": "Hai file con modifiche non salvate nel progetto corrente. Sei sicuro di voler creare un altro progetto?",
     "unsavedCreateProjectAction": "Crea un altro progetto",
-    "openRecentError": "Impossibile aprire il progetto recente: {{err}}"
+    "openRecentError": "Impossibile aprire il progetto recente: {{err}}",
+    "loadingProjectFiles": "Caricamento file del progetto...",
+    "loadingLspReady": "Server LSP pronto!",
+    "loadingLspStarting": "Avvio del Language Server PHP...",
+    "loadingLspDownloading": "Download dipendenze PHP/PocketMine...",
+    "loadingLspDownloaded": "Dipendenze scaricate. Inizializzazione...",
+    "loadingProject": "Inizializzazione workspace..."
   },
   "server": {
     "status": {
@@ -484,7 +491,16 @@
     "redo": "Ripeti modifica",
     "selectAll": "Seleziona tutto",
     "goToLine": "Vai alla linea",
-    "goToDefinition": "Vai alla definizione"
+    "goToDefinition": "Vai alla definizione",
+    "fileTreeNavigate": "Naviga nell'albero dei file (esploratore)",
+    "fileTreeExpandCollapse": "Alterna cartella / Apri file",
+    "fileTreeDelete": "Elimina file/cartella",
+    "fileTreeRename": "Rinomina file/cartella",
+    "fileTreeCopy": "Copia file/cartella",
+    "fileTreeCut": "Taglia file/cartella",
+    "fileTreePaste": "Incolla file/cartella",
+    "fileTreeNewFile": "Nuovo file nell'explorer",
+    "fileTreeNewFolder": "Nuova cartella nell'explorer"
   },
   "versionManager": {
     "title": "Gestore versioni PocketMine-MP",

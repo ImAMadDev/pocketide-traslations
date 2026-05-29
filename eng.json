@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "common": {
     "cancel": "Cancel",
     "confirm": "Confirm",
@@ -230,6 +230,7 @@
     "errorDelete": "Error deleting: {{err}}",
     "errorCreate": "Error creating: {{err}}",
     "errorRename": "Error renaming: {{err}}",
+    "errorMove": "Error moving: {{err}}",
     "newFilePlaceholder": "filename.php",
     "newFolderPlaceholder": "new-folder"
   },
@@ -343,7 +344,13 @@
     "unsavedOpenProjectAction": "Open another project",
     "unsavedCreateProjectMsg": "You have files with unsaved changes in the current project. Are you sure you want to create another project?",
     "unsavedCreateProjectAction": "Create another project",
-    "openRecentError": "Could not open recent project: {{err}}"
+    "openRecentError": "Could not open recent project: {{err}}",
+    "loadingProjectFiles": "Loading project files...",
+    "loadingLspReady": "LSP Server Ready!",
+    "loadingLspStarting": "Starting PHP Language Server...",
+    "loadingLspDownloading": "Downloading PHP/PocketMine dependencies...",
+    "loadingLspDownloaded": "Dependencies downloaded. Initializing...",
+    "loadingProject": "Initializing workspace..."
   },
   "server": {
     "status": {
@@ -484,7 +491,16 @@
     "redo": "Redo change",
     "selectAll": "Select all",
     "goToLine": "Go to Line",
-    "goToDefinition": "Go to Definition"
+    "goToDefinition": "Go to Definition",
+    "fileTreeNavigate": "Navigate file tree (explorer)",
+    "fileTreeExpandCollapse": "Toggle folder / Open file",
+    "fileTreeDelete": "Delete file/folder",
+    "fileTreeRename": "Rename file/folder",
+    "fileTreeCopy": "Copy file/folder",
+    "fileTreeCut": "Cut file/folder",
+    "fileTreePaste": "Paste file/folder",
+    "fileTreeNewFile": "New file in explorer",
+    "fileTreeNewFolder": "New folder in explorer"
   },
   "versionManager": {
     "title": "PocketMine-MP Version Manager",

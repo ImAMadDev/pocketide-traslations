@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "common": {
     "cancel": "İptal",
     "confirm": "Onayla",
@@ -343,7 +343,13 @@
     "unsavedOpenProjectAction": "Başka bir proje aç",
     "unsavedCreateProjectMsg": "Mevcut projede kaydedilmemiş değişiklikleri olan dosyalarınız var. Başka bir proje oluşturmak istediğinize emin misiniz?",
     "unsavedCreateProjectAction": "Başka bir proje oluştur",
-    "openRecentError": "Son proje açılamadı: {{err}}"
+    "openRecentError": "Son proje açılamadı: {{err}}",
+    "loadingProjectFiles": "Proje dosyaları yükleniyor...",
+    "loadingLspReady": "LSP sunucusu hazır!",
+    "loadingLspStarting": "PHP Dil Sunucusu başlatılıyor...",
+    "loadingLspDownloading": "PHP/PocketMine bağımlılıkları indiriliyor...",
+    "loadingLspDownloaded": "Bağımlılıklar indirildi. Başlatılıyor...",
+    "loadingProject": "Çalışma alanı başlatılıyor..."
   },
   "server": {
     "status": {
@@ -484,7 +490,16 @@
     "redo": "Değişikliği yinele",
     "selectAll": "Tümünü seç",
     "goToLine": "Satıra git",
-    "goToDefinition": "Tanıma git"
+    "goToDefinition": "Tanıma git",
+    "fileTreeNavigate": "Dosya ağacında gezin (gezgin)",
+    "fileTreeExpandCollapse": "Klasör geçişi / Dosyayı aç",
+    "fileTreeDelete": "Dosya/klasör sil",
+    "fileTreeRename": "Dosya/klasör yeniden adlandır",
+    "fileTreeCopy": "Dosya/klasör kopyala",
+    "fileTreeCut": "Dosya/klasör kes",
+    "fileTreePaste": "Dosya/klasör yapıştır",
+    "fileTreeNewFile": "Gezgin'de yeni dosya",
+    "fileTreeNewFolder": "Gezgin'de yeni klasör"
   },
   "versionManager": {
     "title": "PocketMine-MP Sürüm Yöneticisi",
