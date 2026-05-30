@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "common": {
     "cancel": "Отмена",
     "confirm": "Подтвердить",
@@ -224,6 +224,8 @@
     "delete": "Удалить",
     "deleteConfirmTitle": "Удалить элемент",
     "deleteConfirmMsg": "Вы уверены, что хотите удалить \"{{name}}\"?",
+    "moveConfirmTitle": "Переместить элемент",
+    "moveConfirmMsg": "Вы уверены, что хотите переместить \"{{name}}\" в \"{{dest}}\"?",
     "paste": "Вставить",
     "minimize": "Свернуть боковую панель",
     "errorPaste": "Ошибка вставки: {{err}}",

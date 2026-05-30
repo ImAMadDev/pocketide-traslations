@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "common": {
     "cancel": "Hủy",
     "confirm": "Xác nhận",
@@ -224,6 +224,8 @@
     "delete": "Xóa",
     "deleteConfirmTitle": "Xóa mục",
     "deleteConfirmMsg": "Bạn có chắc muốn xóa \"{{name}}\" không?",
+    "moveConfirmTitle": "Di chuyển mục",
+    "moveConfirmMsg": "Bạn có chắc muốn di chuyển \"{{name}}\" đến \"{{dest}}\" không?",
     "paste": "Dán",
     "minimize": "Thu nhỏ thanh bên",
     "errorPaste": "Lỗi khi dán: {{err}}",

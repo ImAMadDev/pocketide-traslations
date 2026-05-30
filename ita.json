@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "common": {
     "cancel": "Annulla",
     "confirm": "Conferma",
@@ -224,6 +224,8 @@
     "delete": "Elimina",
     "deleteConfirmTitle": "Elimina elemento",
     "deleteConfirmMsg": "Sei sicuro di voler eliminare \"{{name}}\"?",
+    "moveConfirmTitle": "Sposta elemento",
+    "moveConfirmMsg": "Sei sicuro di voler spostare \"{{name}}\" a \"{{dest}}\"?",
     "paste": "Incolla",
     "minimize": "Riduci barra laterale",
     "errorPaste": "Errore incollaggio: {{err}}",

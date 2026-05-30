@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "common": {
     "cancel": "Cancel",
     "confirm": "Confirm",
@@ -224,6 +224,8 @@
     "delete": "Delete",
     "deleteConfirmTitle": "Delete element",
     "deleteConfirmMsg": "Are you sure you want to delete \"{{name}}\"?",
+    "moveConfirmTitle": "Move element",
+    "moveConfirmMsg": "Are you sure you want to move \"{{name}}\" to \"{{dest}}\"?",
     "paste": "Paste",
     "minimize": "Minimize sidebar",
     "errorPaste": "Error pasting: {{err}}",

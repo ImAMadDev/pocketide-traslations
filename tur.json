@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "common": {
     "cancel": "İptal",
     "confirm": "Onayla",
@@ -224,6 +224,8 @@
     "delete": "Sil",
     "deleteConfirmTitle": "Ögeyi Sil",
     "deleteConfirmMsg": "\"{{name}}\" öğesini silmek istediğinizden emin misiniz?",
+    "moveConfirmTitle": "Ögeyi Taşı",
+    "moveConfirmMsg": "\"{{name}}\" öğesini \"{{dest}}\" konumuna taşımak istediğinizden emin misiniz?",
     "paste": "Yapıştır",
     "minimize": "Kenar çubuğunu küçült",
     "errorPaste": "Yapıştırma hatası: {{err}}",

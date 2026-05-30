@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "common": {
     "cancel": "Abbrechen",
     "confirm": "Bestätigen",
@@ -224,6 +224,8 @@
     "delete": "Löschen",
     "deleteConfirmTitle": "Element löschen",
     "deleteConfirmMsg": "Bist du sicher, dass du \"{{name}}\" löschen möchtest?",
+    "moveConfirmTitle": "Element verschieben",
+    "moveConfirmMsg": "Bist du sicher, dass du \"{{name}}\" nach \"{{dest}}\" verschieben möchtest?",
     "paste": "Einfügen",
     "minimize": "Seitenleiste minimieren",
     "errorPaste": "Fehler beim Einfügen: {{err}}",

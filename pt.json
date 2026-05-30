@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "common": {
     "cancel": "Cancelar",
     "confirm": "Confirmar",
@@ -224,6 +224,8 @@
     "delete": "Excluir",
     "deleteConfirmTitle": "Excluir elemento",
     "deleteConfirmMsg": "Tem certeza que deseja excluir \"{{name}}\"?",
+    "moveConfirmTitle": "Mover elemento",
+    "moveConfirmMsg": "Tem certeza que deseja mover \"{{name}}\" para \"{{dest}}\"?",
     "paste": "Colar",
     "minimize": "Minimizar barra lateral",
     "errorPaste": "Erro ao colar: {{err}}",

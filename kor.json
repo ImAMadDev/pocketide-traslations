@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "common": {
     "cancel": "취소",
     "confirm": "확인",
@@ -224,6 +224,8 @@
     "delete": "삭제",
     "deleteConfirmTitle": "요소 삭제",
     "deleteConfirmMsg": "\"{{name}}\"을(를) 삭제하시겠습니까?",
+    "moveConfirmTitle": "요소 이동",
+    "moveConfirmMsg": "\"{{name}}\"을(를) \"{{dest}}\"로 이동하시겠습니까?",
     "paste": "붙여넣기",
     "minimize": "사이드바 최소화",
     "errorPaste": "붙여넣기 오류: {{err}}",
