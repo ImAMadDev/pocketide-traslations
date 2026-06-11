@@ -13,14 +13,15 @@
     "ok": "Tamam"
   },
   "welcome": {
-    "title": "PocketIDE'ye tekrar hoş geldiniz",
+    "title": "Deepslate'ye tekrar hoş geldiniz",
     "subtitle": "PocketMine-MP eklentileri için geliştirme ortamı",
     "getStarted": "Başlayın",
     "newProject": "Yeni Proje",
     "openFolder": "Proje Klasörünü Aç",
     "cloneRepo": "Depoyu Klonla",
     "recentProjects": "Son Projeler",
-    "noRecentProjects": "Son projeler yok"
+    "noRecentProjects": "Son projeler yok",
+    "removeRecentProject": "Remove from list"
   },
   "bottom": {
     "consoleTab": "Konsol",
@@ -74,7 +75,7 @@
     "placeholderRunning": "Bir sunucu komutu yazın (ör. help, op, stop) ve Enter'a basın...",
     "placeholderInactive": "Komut göndermek için sunucuyu başlatın...",
     "sendCommand": "Komutu gönder",
-    "errorSendCommand": "[PocketIDE] Komut gönderilirken hata: {{err}}",
+    "errorSendCommand": "[Deepslate] Komut gönderilirken hata: {{err}}",
     "logsSavedSuccess": "Konsol günlüğü başarıyla {{path}} İçine kaydedildi"
   },
   "status": {
@@ -214,7 +215,8 @@
       "header": "Yardım",
       "docs": "PMMP Dokümantasyonu",
       "shortcuts": "Klavye Kısayolları",
-      "about": "PocketIDE Hakkında"
+      "checkForUpdates": "Check for Updates...",
+      "about": "Deepslate Hakkında"
     },
     "themes": {
       "header": "Temalar",
@@ -246,22 +248,21 @@
     "newFolderPlaceholder": "yeni-klasor"
   },
   "about": {
-    "title": "PocketIDE Hakkında",
+    "title": "Deepslate Hakkında",
     "version": "Sürüm {{version}} (Beta)",
     "desc": "PocketMine-MP eklentilerinin PHP ile oluşturulmasını, hata ayıklamasını ve paketlenmesini kolaylaştırmak için tasarlanmış bir entegre geliştirme ortamı.",
     "engine": "Tauri Motoru",
     "ui": "Kullanıcı Arayüzü",
     "editor": "Dahili Düzenleyici",
     "support": "PM API Desteği",
-    "created": "PocketIDE ekibi tarafından oluşturuldu"
+    "created": "Created by ImAMadDev (github.com/ImAMadDev)"
   },
   "settings": {
-    "title": "PocketIDE Tercihleri",
+    "title": "Deepslate Tercihleri",
     "subtitle": "Genel düzenleyici ayarları ve ortam davranışı",
     "editorTab": "Düzenleyici",
     "appearanceTab": "Görünüm",
     "behaviorTab": "Davranış",
-    "licenseTab": "Lisans ve Profil",
     "fontFamily": "Yazı Tipi Ailesi",
     "fontSize": "Yazı Boyutu ({{size}}px)",
     "lineHeight": "Satır Yüksekliği ({{height}}px)",
@@ -293,7 +294,7 @@
     "sidebarPositionLeft": "Sol",
     "sidebarPositionRight": "Sağ",
     "terminalFontSize": "Konsol Yazı Tipi Boyutu ({{size}}px)",
-    "themeDesc": "Tema değiştirildiğinde Monaco editör, açılır menüler, modallar ve PocketIDE terminal arka planı renk düzeni hemen değişecektir.",
+    "themeDesc": "Tema değiştirildiğinde Monaco editör, açılır menüler, modallar ve Deepslate terminal arka planı renk düzeni hemen değişecektir.",
     "autoSave": "Otomatik Kaydet",
     "autoSaveOff": "Kapalı",
     "autoSaveAfterDelay": "Gecikme ile",
@@ -383,7 +384,7 @@
       "openProjectFirst": "Lütfen önce bir eklenti projesi açın.",
       "openProjectFirstServer": "Sunucuyu çalıştırmak için lütfen önce bir eklenti projesi açın.",
       "noVersionsInstalled": "Hiç PocketMine-MP sürümü yüklü değil. Lütfen Sürüm Yöneticisi'nden bir sürüm yükleyin.",
-      "versionNotInstalled": "[PocketIDE] Proje sürümü ({{projectVersion}}) yüklü değil. Yüklü sürüm kullanılıyor: {{installedVersion}}",
+      "versionNotInstalled": "[Deepslate] Proje sürümü ({{projectVersion}}) yüklü değil. Yüklü sürüm kullanılıyor: {{installedVersion}}",
       "cacheCleaned": "Geçici önbellek temizlendi.",
       "resetSuccess": "Ortam başarıyla sıfırlandı."
     },
@@ -396,11 +397,11 @@
       "resetEnv": "Ortamı sıfırla"
     },
     "logs": {
-      "errorStart": "[PocketIDE] Sunucu başlatılırken hata oluştu: {{err}}",
-      "errorStop": "[PocketIDE] Sunucu dururken hata oluştu: {{err}}",
-      "startBuild": "[PocketIDE] Eklenti derlemesi başlatılıyor...",
-      "buildSuccess": "[PocketIDE] Derleme başarılı. Phar plugins klasöründe oluşturuldu.",
-      "buildFailed": "[PocketIDE] Derleme {{count}} hata ile başarısız oldu."
+      "errorStart": "[Deepslate] Sunucu başlatılırken hata oluştu: {{err}}",
+      "errorStop": "[Deepslate] Sunucu dururken hata oluştu: {{err}}",
+      "startBuild": "[Deepslate] Eklenti derlemesi başlatılıyor...",
+      "buildSuccess": "[Deepslate] Derleme başarılı. Phar plugins klasöründe oluşturuldu.",
+      "buildFailed": "[Deepslate] Derleme {{count}} hata ile başarısız oldu."
     }
   },
   "cloneProject": {
@@ -473,7 +474,7 @@
   },
   "projectSettings": {
     "title": "Proje Ayarları",
-    "subtitle": ".pocketide/project.json içinde kaydedildi",
+    "subtitle": ".deepslate/project.json içinde kaydedildi",
     "nameLabel": "Eklenti adı",
     "versionLabel": "Eklenti sürümü",
     "authorLabel": "Yazar",
@@ -556,7 +557,7 @@
     "enableQueryDesc": "Tarayıcıların sunucu durumunu görmesini sağlar.",
     "envParamsTitle": "Ortam Parametreleri",
     "envParamsDesc": "Derleyici dizinlerini ve yerel depolama seçeneklerini görüntüleyin.",
-    "cacheDirLabel": "Temel önbellek dizini (.pocketide)",
+    "cacheDirLabel": "Temel önbellek dizini (.deepslate)",
     "dataMaintenanceTitle": "Veri Bakımı:",
     "btnClearTemp": "Geçici dosyaları temizle",
     "btnResetEnv": "Tüm ortamı sıfırla",
@@ -566,7 +567,7 @@
       "downloadFailed": "{{version}} sürümü indirilirken hata oluştu: {{err}}",
       "confirmDelete": "{{version}} sürümünü silmek istediğinizden emin misiniz?",
       "confirmReset": "Ortamı tamamen sıfırlamak istediğinizden emin misiniz? Tüm indirilmiş sürümler silinecektir.",
-      "startFailed": "[PocketIDE] Sunucu başlatılırken hata oluştu: {{err}}"
+      "startFailed": "[Deepslate] Sunucu başlatılırken hata oluştu: {{err}}"
     }
   },
   "pluginYml": {
@@ -646,43 +647,6 @@
       "permissionDuplicateTitle": "Tekrar eden İzin"
     }
   },
-  "license": {
-    "title": "Lisans Etkinleştirme",
-    "subtitle": "PocketIDE'yi kullanmaya devam etmek için lütfen geliştirici lisansınızı etkinleştirin.",
-    "tabAccount": "Hesapla Etkinleştir",
-    "tabToken": "Token ile Etkinleştir",
-    "emailLabel": "E-Posta Adresi",
-    "passwordLabel": "Parola",
-    "tokenLabel": "Lisans Tokeni (Base64)",
-    "activateBtn": "PocketIDE'yi Etkinleştir",
-    "verifying": "Lisans doğrulanıyor...",
-    "successMsg": "Lisans başarıyla etkinleştirildi! PocketIDE başlatılıyor...",
-    "errorPrefix": "Hata: ",
-    "machineIdLabel": "Donanım Tanımlayıcı (HWID):",
-    "copyHwid": "HWID'yi Kopyala",
-    "copied": "Kopyalandı!",
-    "buyText": "Henüz bir lisansınız yok mu? Buradan alın",
-    "buyLink": "pocketide.com",
-    "tokenDesc": "İmzalanmış şifreleme tokeninizi PocketIDE kontrol panelinizde bulabilirsiniz.",
-    "fillAllFields": "Lütfen tüm alanları doldurun",
-    "serverActivationFailed": "Sunucudan etkinleştirilemedi",
-    "noTokenReceived": "Sunucudan lisans tokeni alınmadı",
-    "enterToken": "Lütfen lisans tokeninizi girin",
-    "invalidToken": "Lisans tokeni geçersiz",
-    "unknownError": "Bilinmeyen hata",
-    "profileTitle": "Geliştirici Profili",
-    "activeDeveloper": "Etkin Geliştirici Lisansı",
-    "statusActive": "Etkin",
-    "hwidLabel": "Donanım Tanımlayıcı (HWID)",
-    "expirationLabel": "Son Kullanma Tarihi",
-    "daysRemaining": "gün kaldı",
-    "issuedLabel": "Düzenleme Tarihi",
-    "typeLabel": "Lisans Seviyesi",
-    "deactivate": "Lisansı Devre Dışı Bırak",
-    "confirmDeactivateTitle": "Lisans Devre Dışı Bırakılsın Mı?",
-    "confirmDeactivateDesc": "Lisansınızı devre dışı bırakmak ve bu sistemden kaldırmak istediğinizden emin misiniz? PocketIDE kilitlenecek ve etkinleştirme ekranına dönecektir.",
-    "noLicenseFound": "Bu sistemde etkin geliştirici lisansı bulunamadı."
-  },
   "blueprintModal": {
     "title": "Yeni Blueprint",
     "subtitle": "PocketMine-MP için gövde kodu oluşturun",
@@ -699,5 +663,13 @@
     "create": "Kodu Oluştur",
     "errorName": "Lütfen geçerli bir alfanümerik sınıf adı girin (boşluk yok).",
     "errorFields": "Lütfen tüm gerekli alanları doldurun."
+  },
+  "updater": {
+    "title": "Software Update",
+    "newVersionMessage": "A new version ({{version}}) is available. Would you like to update now?",
+    "updateButton": "Update",
+    "downloadingMessage": "Downloading update... The application will restart automatically when complete.",
+    "noUpdatesMessage": "You are running the latest version of Deepslate.",
+    "errorMessage": "Failed to check for updates: "
   }
 }

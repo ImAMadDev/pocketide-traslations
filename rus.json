@@ -13,14 +13,15 @@
     "ok": "ОК"
   },
   "welcome": {
-    "title": "Добро пожаловать в PocketIDE",
+    "title": "Добро пожаловать в Deepslate",
     "subtitle": "Среда разработки для плагинов PocketMine-MP",
     "getStarted": "Начать",
     "newProject": "Новый проект",
     "openFolder": "Открыть папку проекта",
     "cloneRepo": "Клонировать репозиторий",
     "recentProjects": "Последние проекты",
-    "noRecentProjects": "Нет последних проектов"
+    "noRecentProjects": "Нет последних проектов",
+    "removeRecentProject": "Удалить из списка"
   },
   "bottom": {
     "consoleTab": "Консоль",
@@ -74,7 +75,7 @@
     "placeholderRunning": "Введите команду сервера (например help, op, stop) и нажмите Enter...",
     "placeholderInactive": "Запустите сервер для отправки команд...",
     "sendCommand": "Отправить команду",
-    "errorSendCommand": "[PocketIDE] Ошибка при отправке команды: {{err}}",
+    "errorSendCommand": "[Deepslate] Ошибка при отправке команды: {{err}}",
     "logsSavedSuccess": "Настройка консоли успешно сохранена в {{path}}"
   },
   "status": {
@@ -214,7 +215,8 @@
       "header": "Справка",
       "docs": "Документация PMMP",
       "shortcuts": "Сочетания клавиш",
-      "about": "О PocketIDE"
+      "checkForUpdates": "Проверить наличие обновлений...",
+      "about": "О Deepslate"
     },
     "themes": {
       "header": "Темы",
@@ -246,22 +248,21 @@
     "newFolderPlaceholder": "new-folder"
   },
   "about": {
-    "title": "О PocketIDE",
+    "title": "О Deepslate",
     "version": "Версия {{version}} (Бета)",
     "desc": "Интегрированная среда разработки, предназначенная для упрощения создания, отладки и упаковки плагинов для PocketMine-MP на PHP.",
     "engine": "Двигатель Tauri",
     "ui": "Пользовательский интерфейс",
     "editor": "Встроенный редактор",
     "support": "Поддержка PM API",
-    "created": "Создано командой PocketIDE"
+    "created": "Created by ImAMadDev (github.com/ImAMadDev)"
   },
   "settings": {
-    "title": "Параметры PocketIDE",
+    "title": "Параметры Deepslate",
     "subtitle": "Глобальные параметры редактора и поведение среды",
     "editorTab": "Редактор",
     "appearanceTab": "Внешний вид",
     "behaviorTab": "Поведение",
-    "licenseTab": "Лицензия и профиль",
     "fontFamily": "Семейство шрифтов",
     "fontSize": "Размер шрифта ({{size}}px)",
     "lineHeight": "Высота строки ({{height}}px)",
@@ -293,7 +294,7 @@
     "sidebarPositionLeft": "Слева",
     "sidebarPositionRight": "Справа",
     "terminalFontSize": "Размер шрифта консоли ({{size}}px)",
-    "themeDesc": "Изменение темы немедленно изменит цветовую схему редактора Monaco, раскрывающихся списков, модальных окон и фона терминала PocketIDE.",
+    "themeDesc": "Изменение темы немедленно изменит цветовую схему редактора Monaco, раскрывающихся списков, модальных окон и фона терминала Deepslate.",
     "autoSave": "Автосохранение",
     "autoSaveOff": "Отключено",
     "autoSaveAfterDelay": "С задержкой",
@@ -383,7 +384,7 @@
       "openProjectFirst": "Сначала откройте проект плагина.",
       "openProjectFirstServer": "Сначала откройте проект плагина для запуска сервера.",
       "noVersionsInstalled": "Установленные версии PocketMine-MP не найдены. Установите версию в Менеджере версий.",
-      "versionNotInstalled": "[PocketIDE] Версия проекта ({{projectVersion}}) не установлена. Используется установленная версия: {{installedVersion}}",
+      "versionNotInstalled": "[Deepslate] Версия проекта ({{projectVersion}}) не установлена. Используется установленная версия: {{installedVersion}}",
       "cacheCleaned": "Временный кеш очищен.",
       "resetSuccess": "Среда успешно переустановлена."
     },
@@ -396,11 +397,11 @@
       "resetEnv": "Переустановить среду"
     },
     "logs": {
-      "errorStart": "[PocketIDE] Ошибка запуска сервера: {{err}}",
-      "errorStop": "[PocketIDE] Ошибка остановки сервера: {{err}}",
-      "startBuild": "[PocketIDE] Начало компиляции плагина...",
-      "buildSuccess": "[PocketIDE] Компиляция успешна. Phar создан в папке plugins.",
-      "buildFailed": "[PocketIDE] Компиляция не удалась с {{count}} ошибкой(ами)."
+      "errorStart": "[Deepslate] Ошибка запуска сервера: {{err}}",
+      "errorStop": "[Deepslate] Ошибка остановки сервера: {{err}}",
+      "startBuild": "[Deepslate] Начало компиляции плагина...",
+      "buildSuccess": "[Deepslate] Компиляция успешна. Phar создан в папке plugins.",
+      "buildFailed": "[Deepslate] Компиляция не удалась с {{count}} ошибкой(ами)."
     }
   },
   "cloneProject": {
@@ -473,7 +474,7 @@
   },
   "projectSettings": {
     "title": "Параметры проекта",
-    "subtitle": "Сохранено в .pocketide/project.json",
+    "subtitle": "Сохранено в .deepslate/project.json",
     "nameLabel": "Имя плагина",
     "versionLabel": "Версия плагина",
     "authorLabel": "Автор",
@@ -556,7 +557,7 @@
     "enableQueryDesc": "Позволяет сканерам видеть статус сервера.",
     "envParamsTitle": "Параметры среды",
     "envParamsDesc": "Просмотрите директории компилятора и параметры локального хранилища.",
-    "cacheDirLabel": "Базовая директория кеша (.pocketide)",
+    "cacheDirLabel": "Базовая директория кеша (.deepslate)",
     "dataMaintenanceTitle": "Обслуживание данных:",
     "btnClearTemp": "Очистить временные файлы",
     "btnResetEnv": "Переустановить всю среду",
@@ -566,7 +567,7 @@
       "downloadFailed": "Ошибка загрузки версии {{version}}: {{err}}",
       "confirmDelete": "Вы уверены, что хотите удалить версию {{version}}?",
       "confirmReset": "Вы уверены, что хотите полностью переустановить среду? Все загруженные версии будут удалены.",
-      "startFailed": "[PocketIDE] Ошибка запуска сервера: {{err}}"
+      "startFailed": "[Deepslate] Ошибка запуска сервера: {{err}}"
     }
   },
   "pluginYml": {
@@ -646,43 +647,6 @@
       "permissionDuplicateTitle": "Дубликат разрешения"
     }
   },
-  "license": {
-    "title": "Активация Лицензии",
-    "subtitle": "Чтобы продолжить использование PocketIDE, активируйте свою лицензию разработчика.",
-    "tabAccount": "Активировать с Аккаунтом",
-    "tabToken": "Активировать с Токеном",
-    "emailLabel": "Адрес электронной почты",
-    "passwordLabel": "Пароль",
-    "tokenLabel": "Токен лицензии (Base64)",
-    "activateBtn": "Активировать PocketIDE",
-    "verifying": "Проверка лицензии...",
-    "successMsg": "Лицензия активирована успешно! Запуск PocketIDE...",
-    "errorPrefix": "Ошибка: ",
-    "machineIdLabel": "Идентификатор Оборудования (HWID):",
-    "copyHwid": "Скопировать HWID",
-    "copied": "Скопировано!",
-    "buyText": "Еще нет лицензии? Получите её на",
-    "buyLink": "pocketide.com",
-    "tokenDesc": "Вы можете найти свой подписанный криптографический токен в панели управления PocketIDE.",
-    "fillAllFields": "Пожалуйста, заполните все поля",
-    "serverActivationFailed": "Ошибка активации с сервера",
-    "noTokenReceived": "Токен лицензии не получен с сервера",
-    "enterToken": "Пожалуйста, введите свой токен лицензии",
-    "invalidToken": "Токен лицензии недействителен",
-    "unknownError": "Неизвестная ошибка",
-    "profileTitle": "Профиль Разработчика",
-    "activeDeveloper": "Активная Лицензия Разработчика",
-    "statusActive": "Активно",
-    "hwidLabel": "Идентификатор Оборудования (HWID)",
-    "expirationLabel": "Дата Истечения",
-    "daysRemaining": "дней осталось",
-    "issuedLabel": "Дата Выпуска",
-    "typeLabel": "Уровень Лицензии",
-    "deactivate": "Деактивировать Лицензию",
-    "confirmDeactivateTitle": "Деактивировать Лицензию?",
-    "confirmDeactivateDesc": "Вы уверены, что хотите деактивировать и удалить свою лицензию с этой системы? PocketIDE заблокируется и вернется на экран активации.",
-    "noLicenseFound": "На этом компьютере не найдена активная лицензия разработчика."
-  },
   "blueprintModal": {
     "title": "Новый Blueprint",
     "subtitle": "Генерируюте исходный код для PocketMine-MP",
@@ -697,7 +661,15 @@
     "typeListener": "слушатель события (реализует Listener)",
     "typeTask": "Задача планировщика (расширяет Task)",
     "create": "Генерировать код",
-    "errorName": "Пожалуйста, введите валидное альфанумерическое имя класса (без пробелов).",
+    "errorName": "Пожалуйста, введите валидное буквно-цифровое имя класса (без пробелов).",
     "errorFields": "Пожалуйста, заполните все обязательные поля."
+  },
+  "updater": {
+    "title": "Обновление Программного Обеспечения",
+    "newVersionMessage": "Новая версия ({{version}}) доступна. Хотите обновить?",
+    "updateButton": "Обновить",
+    "downloadingMessage": "Загружаются обновления... Приложение автоматически перезагружится по завершении.",
+    "noUpdatesMessage": "Вы используете последнюю версию Deepslate.",
+    "errorMessage": "Ошибка при проверке обновлений: "
   }
 }

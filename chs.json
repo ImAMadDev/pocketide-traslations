@@ -13,14 +13,15 @@
     "ok": "确定"
   },
   "welcome": {
-    "title": "欢迎回到 PocketIDE",
+    "title": "欢迎回到 Deepslate",
     "subtitle": "用于 PocketMine-MP 插件的开发环境",
     "getStarted": "开始使用",
     "newProject": "新建项目",
     "openFolder": "打开项目文件夹",
     "cloneRepo": "克隆仓库",
     "recentProjects": "最近的项目",
-    "noRecentProjects": "没有最近的项目"
+    "noRecentProjects": "没有最近的项目",
+    "removeRecentProject": "Remove from list"
   },
   "bottom": {
     "consoleTab": "控制台",
@@ -74,7 +75,7 @@
     "placeholderRunning": "输入服务器命令（例如 help、op、stop），然后按回车...",
     "placeholderInactive": "启动服务器以发送命令...",
     "sendCommand": "发送命令",
-    "errorSendCommand": "[PocketIDE] 发送命令错误: {{err}}",
+    "errorSendCommand": "[Deepslate] 发送命令错误: {{err}}",
     "logsSavedSuccess": "控制台日志已成功保存到 {{path}}"
   },
   "status": {
@@ -214,7 +215,8 @@
       "header": "帮助",
       "docs": "PMMP 文档",
       "shortcuts": "键盘快捷键",
-      "about": "关于 PocketIDE"
+      "checkForUpdates": "Check for Updates...",
+      "about": "关于 Deepslate"
     },
     "themes": {
       "header": "主题",
@@ -246,22 +248,21 @@
     "newFolderPlaceholder": "新建文件夹"
   },
   "about": {
-    "title": "关于 PocketIDE",
+    "title": "关于 Deepslate",
     "version": "版本 {{version}} (Beta)",
     "desc": "一个集成开发环境，旨在简化为 PocketMine-MP 开发、调试和打包 PHP 插件的过程。",
     "engine": "Tauri 引擎",
     "ui": "用户界面",
     "editor": "内置编辑器",
     "support": "PM API 支持",
-    "created": "由 PocketIDE 团队创建"
+    "created": "Created by ImAMadDev (github.com/ImAMadDev)"
   },
   "settings": {
-    "title": "PocketIDE 首选项",
+    "title": "Deepslate 首选项",
     "subtitle": "全局编辑器设置和环境行为",
     "editorTab": "编辑器",
     "appearanceTab": "外观",
     "behaviorTab": "行为",
-    "licenseTab": "许可证和个人资料",
     "fontFamily": "字体族",
     "fontSize": "字体大小 ({{size}}px)",
     "lineHeight": "行高 ({{height}}px)",
@@ -293,7 +294,7 @@
     "sidebarPositionLeft": "左侧",
     "sidebarPositionRight": "右侧",
     "terminalFontSize": "控制台字体大小 ({{size}}px)",
-    "themeDesc": "更改主题将立即修改 Monaco 编辑器、下拉菜单、模态框以及 PocketIDE 终端背景的配色方案。",
+    "themeDesc": "更改主题将立即修改 Monaco 编辑器、下拉菜单、模态框以及 Deepslate 终端背景的配色方案。",
     "autoSave": "自动保存",
     "autoSaveOff": "禁用（off）",
     "autoSaveAfterDelay": "延迟后 (afterDelay)",
@@ -383,7 +384,7 @@
       "openProjectFirst": "请先打开插件项目。",
       "openProjectFirstServer": "请先打开插件项目以运行服务器。",
       "noVersionsInstalled": "未安装 PocketMine-MP 版本。请在版本管理器中安装一个版本。",
-      "versionNotInstalled": "[PocketIDE] 项目版本 ({{projectVersion}}) 未安装。使用已安装版本：{{installedVersion}}",
+      "versionNotInstalled": "[Deepslate] 项目版本 ({{projectVersion}}) 未安装。使用已安装版本：{{installedVersion}}",
       "cacheCleaned": "已清除临时缓存。",
       "resetSuccess": "环境重置成功。"
     },
@@ -396,11 +397,11 @@
       "resetEnv": "重置环境"
     },
     "logs": {
-      "errorStart": "[PocketIDE] 启动服务器时出错: {{err}}",
-      "errorStop": "[PocketIDE] 停止服务器时出错: {{err}}",
-      "startBuild": "[PocketIDE] 开始编译插件...",
-      "buildSuccess": "[PocketIDE] 编译成功。Phar 已创建在 plugins 文件夹中。",
-      "buildFailed": "[PocketIDE] 编译失败，出现 {{count}} 个错误。"
+      "errorStart": "[Deepslate] 启动服务器时出错: {{err}}",
+      "errorStop": "[Deepslate] 停止服务器时出错: {{err}}",
+      "startBuild": "[Deepslate] 开始编译插件...",
+      "buildSuccess": "[Deepslate] 编译成功。Phar 已创建在 plugins 文件夹中。",
+      "buildFailed": "[Deepslate] 编译失败，出现 {{count}} 个错误。"
     }
   },
   "cloneProject": {
@@ -473,7 +474,7 @@
   },
   "projectSettings": {
     "title": "项目设置",
-    "subtitle": "保存在 .pocketide/project.json",
+    "subtitle": "保存在 .deepslate/project.json",
     "nameLabel": "插件名称",
     "versionLabel": "插件版本",
     "authorLabel": "作者",
@@ -556,7 +557,7 @@
     "enableQueryDesc": "允许扫描器查看服务器状态。",
     "envParamsTitle": "环境参数",
     "envParamsDesc": "查看编译器目录和本地存储选项。",
-    "cacheDirLabel": "基础缓存目录 (.pocketide)",
+    "cacheDirLabel": "基础缓存目录 (.deepslate)",
     "dataMaintenanceTitle": "数据维护：",
     "btnClearTemp": "清除临时文件",
     "btnResetEnv": "重置整个环境",
@@ -566,7 +567,7 @@
       "downloadFailed": "下载版本 {{version}} 时出错: {{err}}",
       "confirmDelete": "确定要删除版本 {{version}} 吗？",
       "confirmReset": "确定要完全重置环境吗？所有已下载的版本将被删除。",
-      "startFailed": "[PocketIDE] 启动服务器时出错: {{err}}"
+      "startFailed": "[Deepslate] 启动服务器时出错: {{err}}"
     }
   },
   "pluginYml": {
@@ -646,43 +647,6 @@
       "permissionDuplicateTitle": "重复的权限"
     }
   },
-  "license": {
-    "title": "许可证激活",
-    "subtitle": "要继续使用 PocketIDE，请激活您的开发者许可证。",
-    "tabAccount": "使用账户激活",
-    "tabToken": "使用令牌激活",
-    "emailLabel": "电子邮件地址",
-    "passwordLabel": "密码",
-    "tokenLabel": "许可证令牌 (Base64)",
-    "activateBtn": "激活 PocketIDE",
-    "verifying": "正在验证许可证...",
-    "successMsg": "许可证激活成功！正在启动 PocketIDE...",
-    "errorPrefix": "错误：",
-    "machineIdLabel": "硬件标识符 (HWID):",
-    "copyHwid": "复制 HWID",
-    "copied": "已复制！",
-    "buyText": "还没有许可证？获取一个",
-    "buyLink": "pocketide.com",
-    "tokenDesc": "您可以在 PocketIDE 仪表板中找到已签名的加密令牌。",
-    "fillAllFields": "请填写所有字段",
-    "serverActivationFailed": "从服务器激活失败",
-    "noTokenReceived": "未从服务器接收许可证令牌",
-    "enterToken": "请输入您的许可证令牌",
-    "invalidToken": "许可证令牌无效",
-    "unknownError": "未知错误",
-    "profileTitle": "开发者资料",
-    "activeDeveloper": "活跃开发者许可证",
-    "statusActive": "活跃",
-    "hwidLabel": "硬件标识符 (HWID)",
-    "expirationLabel": "过期日期",
-    "daysRemaining": "天剩余",
-    "issuedLabel": "发行日期",
-    "typeLabel": "许可证等级",
-    "deactivate": "停用许可证",
-    "confirmDeactivateTitle": "停用许可证？",
-    "confirmDeactivateDesc": "您确定要停用并从此系统中删除您的许可证吗？PocketIDE 将被锁定并返回到激活屏幕。",
-    "noLicenseFound": "此系统上找不到有效的开发者许可证。"
-  },
   "blueprintModal": {
     "title": "新建 Blueprint",
     "subtitle": "为 PocketMine-MP 生成模板代码",
@@ -699,5 +663,13 @@
     "create": "生成代码",
     "errorName": "请输入有效的字母数字类名（不含空格）。",
     "errorFields": "请填写所有必填字段。"
+  },
+  "updater": {
+    "title": "Software Update",
+    "newVersionMessage": "A new version ({{version}}) is available. Would you like to update now?",
+    "updateButton": "Update",
+    "downloadingMessage": "Downloading update... The application will restart automatically when complete.",
+    "noUpdatesMessage": "You are running the latest version of Deepslate.",
+    "errorMessage": "Failed to check for updates: "
   }
 }

@@ -13,14 +13,15 @@
     "ok": "확인"
   },
   "welcome": {
-    "title": "PocketIDE에 다시 오신 것을 환영합니다",
+    "title": "Deepslate에 다시 오신 것을 환영합니다",
     "subtitle": "PocketMine-MP 플러그인용 개발 환경",
     "getStarted": "시작하기",
     "newProject": "새 프로젝트",
     "openFolder": "프로젝트 폴더 열기",
     "cloneRepo": "리포지토리 복제",
     "recentProjects": "최근 프로젝트",
-    "noRecentProjects": "최근 프로젝트가 없습니다"
+    "noRecentProjects": "최근 프로젝트가 없습니다",
+    "removeRecentProject": "Remove from list"
   },
   "bottom": {
     "consoleTab": "콘솔",
@@ -74,7 +75,7 @@
     "placeholderRunning": "서버 명령어를 입력하세요(예: help, op, stop) 후 Enter...",
     "placeholderInactive": "명령을 보내려면 서버를 시작하세요...",
     "sendCommand": "명령 전송",
-    "errorSendCommand": "[PocketIDE] 명령 전송 중 오류: {{err}}",
+    "errorSendCommand": "[Deepslate] 명령 전송 중 오류: {{err}}",
     "logsSavedSuccess": "콘솔 로그가 {{path}}에 성공적으로 저장되었습니다"
   },
   "status": {
@@ -214,7 +215,8 @@
       "header": "도움말",
       "docs": "PMMP 문서",
       "shortcuts": "단축키",
-      "about": "PocketIDE 정보"
+      "checkForUpdates": "Check for Updates...",
+      "about": "Deepslate 정보"
     },
     "themes": {
       "header": "테마",
@@ -246,22 +248,21 @@
     "newFolderPlaceholder": "새-폴더"
   },
   "about": {
-    "title": "PocketIDE 정보",
+    "title": "Deepslate 정보",
     "version": "버전 {{version}} (Beta)",
     "desc": "PHP로 PocketMine-MP용 플러그인을 생성, 디버그 및 패키징하는 작업을 단순화하는 통합 개발 환경입니다.",
     "engine": "Tauri 엔진",
     "ui": "사용자 인터페이스",
     "editor": "내장 에디터",
     "support": "PM API 지원",
-    "created": "PocketIDE 팀 제작"
+    "created": "Created by ImAMadDev (github.com/ImAMadDev)"
   },
   "settings": {
-    "title": "PocketIDE 환경설정",
+    "title": "Deepslate 환경설정",
     "subtitle": "글로벌 편집기 설정 및 환경 동작",
     "editorTab": "편집기",
     "appearanceTab": "외관",
     "behaviorTab": "동작",
-    "licenseTab": "라이선스 및 프로필",
     "fontFamily": "글꼴",
     "fontSize": "글꼴 크기 ({{size}}px)",
     "lineHeight": "행 높이 ({{height}}px)",
@@ -293,7 +294,7 @@
     "sidebarPositionLeft": "왼쪽",
     "sidebarPositionRight": "오른쪽",
     "terminalFontSize": "콘솔 글꼴 크기 ({{size}}px)",
-    "themeDesc": "테마를 변경하면 Monaco 에디터, 드롭다운, 모달 및 PocketIDE 터미널 배경의 색상 구성이 즉시 변경됩니다.",
+    "themeDesc": "테마를 변경하면 Monaco 에디터, 드롭다운, 모달 및 Deepslate 터미널 배경의 색상 구성이 즉시 변경됩니다.",
     "autoSave": "자동 저장",
     "autoSaveOff": "비활성 (off)",
     "autoSaveAfterDelay": "지연 후 (afterDelay)",
@@ -383,7 +384,7 @@
       "openProjectFirst": "먼저 플러그인 프로젝트를 열어주세요.",
       "openProjectFirstServer": "서버를 실행하려면 먼저 플러그인 프로젝트를 열어주세요.",
       "noVersionsInstalled": "PocketMine-MP 버전이 설치되어 있지 않습니다. 버전 관리자에서 설치하세요.",
-      "versionNotInstalled": "[PocketIDE] 프로젝트 버전 ({{projectVersion}}) 이 설치되어 있지 않습니다. 설치된 버전 사용: {{installedVersion}}",
+      "versionNotInstalled": "[Deepslate] 프로젝트 버전 ({{projectVersion}}) 이 설치되어 있지 않습니다. 설치된 버전 사용: {{installedVersion}}",
       "cacheCleaned": "임시 캐시를 정리했습니다.",
       "resetSuccess": "환경이 성공적으로 재설정되었습니다."
     },
@@ -396,11 +397,11 @@
       "resetEnv": "환경 재설정"
     },
     "logs": {
-      "errorStart": "[PocketIDE] 서버 시작 오류: {{err}}",
-      "errorStop": "[PocketIDE] 서버 중지 오류: {{err}}",
-      "startBuild": "[PocketIDE] 플러그인 컴파일을 시작합니다...",
-      "buildSuccess": "[PocketIDE] 컴파일 성공. plugins 폴더에 Phar가 생성되었습니다.",
-      "buildFailed": "[PocketIDE] 컴파일이 {{count}}개의 오류로 실패했습니다."
+      "errorStart": "[Deepslate] 서버 시작 오류: {{err}}",
+      "errorStop": "[Deepslate] 서버 중지 오류: {{err}}",
+      "startBuild": "[Deepslate] 플러그인 컴파일을 시작합니다...",
+      "buildSuccess": "[Deepslate] 컴파일 성공. plugins 폴더에 Phar가 생성되었습니다.",
+      "buildFailed": "[Deepslate] 컴파일이 {{count}}개의 오류로 실패했습니다."
     }
   },
   "cloneProject": {
@@ -473,7 +474,7 @@
   },
   "projectSettings": {
     "title": "프로젝트 설정",
-    "subtitle": ".pocketide/project.json에 저장",
+    "subtitle": ".deepslate/project.json에 저장",
     "nameLabel": "플러그인 이름",
     "versionLabel": "플러그인 버전",
     "authorLabel": "작성자",
@@ -556,7 +557,7 @@
     "enableQueryDesc": "스캐너가 서버 상태를 확인할 수 있게 합니다.",
     "envParamsTitle": "환경 매개변수",
     "envParamsDesc": "컴파일러 디렉토리 및 로컬 저장 옵션을 확인합니다.",
-    "cacheDirLabel": "기본 캐시 디렉토리 (.pocketide)",
+    "cacheDirLabel": "기본 캐시 디렉토리 (.deepslate)",
     "dataMaintenanceTitle": "데이터 관리:",
     "btnClearTemp": "임시 파일 정리",
     "btnResetEnv": "환경 전체 재설정",
@@ -566,7 +567,7 @@
       "downloadFailed": "버전 {{version}} 다운로드 오류: {{err}}",
       "confirmDelete": "버전 {{version}} 를 삭제하시겠습니까?",
       "confirmReset": "환경을 완전히 재설정하시겠습니까? 다운로드된 모든 버전이 삭제됩니다.",
-      "startFailed": "[PocketIDE] 서버 시작 오류: {{err}}"
+      "startFailed": "[Deepslate] 서버 시작 오류: {{err}}"
     }
   },
   "pluginYml": {
@@ -646,43 +647,6 @@
       "permissionDuplicateTitle": "중복된 권한"
     }
   },
-  "license": {
-    "title": "라이선스 활성화",
-    "subtitle": "PocketIDE를 계속 사용하려면 개발자 라이선스를 활성화하세요.",
-    "tabAccount": "계정으로 활성화",
-    "tabToken": "토큰으로 활성화",
-    "emailLabel": "이메일 주소",
-    "passwordLabel": "비밀번호",
-    "tokenLabel": "라이선스 토큰(Base64)",
-    "activateBtn": "PocketIDE 활성화",
-    "verifying": "라이선스 확인 중...",
-    "successMsg": "라이선스가 성공적으로 활성화되었습니다! PocketIDE를 시작 중...",
-    "errorPrefix": "오류: ",
-    "machineIdLabel": "하드웨어 식별자(HWID):",
-    "copyHwid": "HWID 복사",
-    "copied": "복사됨!",
-    "buyText": "아직 라이선스가 없으신가요? 여기서 구하세요",
-    "buyLink": "pocketide.com",
-    "tokenDesc": "서명된 암호화 토큰은 PocketIDE 대시보드에서 찾을 수 있습니다.",
-    "fillAllFields": "모든 필드를 입력해주세요",
-    "serverActivationFailed": "서버에서 활성화하지 못했습니다",
-    "noTokenReceived": "서버에서 라이선스 토큰을 받지 못했습니다",
-    "enterToken": "라이선스 토큰을 입력해주세요",
-    "invalidToken": "라이선스 토큰이 유효하지 않습니다",
-    "unknownError": "알 수 없는 오류",
-    "profileTitle": "개발자 프로필",
-    "activeDeveloper": "활성 개발자 라이선스",
-    "statusActive": "활성",
-    "hwidLabel": "하드웨어 식별자(HWID)",
-    "expirationLabel": "만료 날짜",
-    "daysRemaining": "일 남음",
-    "issuedLabel": "발급 날짜",
-    "typeLabel": "라이선스 등급",
-    "deactivate": "라이선스 비활성화",
-    "confirmDeactivateTitle": "라이선스를 비활성화하시겠습니까?",
-    "confirmDeactivateDesc": "이 시스템에서 라이선스를 비활성화하고 제거하시겠습니까? PocketIDE가 잠기고 활성화 화면으로 돌아갑니다.",
-    "noLicenseFound": "이 시스템에서 유효한 개발자 라이선스를 찾을 수 없습니다."
-  },
   "blueprintModal": {
     "title": "새 Blueprint",
     "subtitle": "PocketMine-MP의 보일러플레이트 코드 생성",
@@ -699,5 +663,13 @@
     "create": "코드 생성",
     "errorName": "유효한 알파모 르는 클래스 이름을 입력하세요(도밠 없음).",
     "errorFields": "모든 필수 필드를 완료하세요."
+  },
+  "updater": {
+    "title": "Software Update",
+    "newVersionMessage": "A new version ({{version}}) is available. Would you like to update now?",
+    "updateButton": "Update",
+    "downloadingMessage": "Downloading update... The application will restart automatically when complete.",
+    "noUpdatesMessage": "You are running the latest version of Deepslate.",
+    "errorMessage": "Failed to check for updates: "
   }
 }

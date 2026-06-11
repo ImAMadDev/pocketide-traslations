@@ -13,14 +13,15 @@
     "ok": "OK"
   },
   "welcome": {
-    "title": "Chào mừng trở lại PocketIDE",
+    "title": "Chào mừng trở lại Deepslate",
     "subtitle": "Môi trường phát triển cho plugin PocketMine-MP",
     "getStarted": "Bắt đầu",
     "newProject": "Dự án mới",
     "openFolder": "Mở thư mục dự án",
     "cloneRepo": "Klon kho",
     "recentProjects": "Dự án gần đây",
-    "noRecentProjects": "Không có dự án gần đây"
+    "noRecentProjects": "Không có dự án gần đây",
+    "removeRecentProject": "Remove from list"
   },
   "bottom": {
     "consoleTab": "Bảng điều khiển",
@@ -74,7 +75,7 @@
     "placeholderRunning": "Nhập một lệnh server (ví dụ: help, op, stop) và nhấn Enter...",
     "placeholderInactive": "Khởi động server để gửi lệnh...",
     "sendCommand": "Gửi lệnh",
-    "errorSendCommand": "[PocketIDE] Lỗi khi gửi lệnh: {{err}}",
+    "errorSendCommand": "[Deepslate] Lỗi khi gửi lệnh: {{err}}",
     "logsSavedSuccess": "Nhật ký bằng đọc kồ được lưu thành công tới {{path}}"
   },
   "status": {
@@ -214,7 +215,8 @@
       "header": "Trợ giúp",
       "docs": "Tài liệu PMMP",
       "shortcuts": "Phím tắt bàn phím",
-      "about": "Về PocketIDE"
+      "checkForUpdates": "Check for Updates...",
+      "about": "Về Deepslate"
     },
     "themes": {
       "header": "Chủ đề",
@@ -246,22 +248,21 @@
     "newFolderPlaceholder": "thu-muc-moi"
   },
   "about": {
-    "title": "Về PocketIDE",
+    "title": "Về Deepslate",
     "version": "Phiên bản {{version}} (Beta)",
     "desc": "Một môi trường phát triển tích hợp được thiết kế để đơn giản hóa việc tạo, gỡ lỗi và đóng gói plugin cho PocketMine-MP bằng PHP.",
     "engine": "Tauri Engine",
     "ui": "Giao diện người dùng",
     "editor": "Trình soạn thảo tích hợp",
     "support": "Hỗ trợ PM API",
-    "created": "Được tạo bởi đội ngũ PocketIDE"
+    "created": "Created by ImAMadDev (github.com/ImAMadDev)"
   },
   "settings": {
-    "title": "Tùy chọn PocketIDE",
+    "title": "Tùy chọn Deepslate",
     "subtitle": "Cài đặt trình soạn thảo toàn cục và hành vi môi trường",
     "editorTab": "Trình soạn thảo",
     "appearanceTab": "Giao diện",
     "behaviorTab": "Hành vi",
-    "licenseTab": "Giấy phép và Hồ sơ",
     "fontFamily": "Họ phông chữ",
     "fontSize": "Cỡ chữ ({{size}}px)",
     "lineHeight": "Chiều cao dòng ({{height}}px)",
@@ -293,7 +294,7 @@
     "sidebarPositionLeft": "Bên trái",
     "sidebarPositionRight": "Bên phải",
     "terminalFontSize": "Cỡ chữ terminal ({{size}}px)",
-    "themeDesc": "Thay đổi chủ đề sẽ ngay lập tức cập nhật bảng màu của trình soạn thảo Monaco, menu thả xuống, hộp thoại và nền terminal PocketIDE.",
+    "themeDesc": "Thay đổi chủ đề sẽ ngay lập tức cập nhật bảng màu của trình soạn thảo Monaco, menu thả xuống, hộp thoại và nền terminal Deepslate.",
     "autoSave": "Tự động lưu",
     "autoSaveOff": "Tắt",
     "autoSaveAfterDelay": "Sau trễ (afterDelay)",
@@ -383,7 +384,7 @@
       "openProjectFirst": "Vui lòng mở một dự án plugin trước.",
       "openProjectFirstServer": "Vui lòng mở một dự án plugin trước để chạy server.",
       "noVersionsInstalled": "Chưa cài đặt phiên bản PocketMine-MP nào. Vui lòng cài đặt trong Trình quản lý phiên bản.",
-      "versionNotInstalled": "[PocketIDE] Phiên bản dự án ({{projectVersion}}) chưa được cài đặt. Sử dụng phiên bản đã cài: {{installedVersion}}",
+      "versionNotInstalled": "[Deepslate] Phiên bản dự án ({{projectVersion}}) chưa được cài đặt. Sử dụng phiên bản đã cài: {{installedVersion}}",
       "cacheCleaned": "Đã xóa bộ nhớ đệm tạm thời.",
       "resetSuccess": "Đặt lại môi trường thành công."
     },
@@ -396,11 +397,11 @@
       "resetEnv": "Đặt lại môi trường"
     },
     "logs": {
-      "errorStart": "[PocketIDE] Lỗi khi khởi động server: {{err}}",
-      "errorStop": "[PocketIDE] Lỗi khi dừng server: {{err}}",
-      "startBuild": "[PocketIDE] Bắt đầu biên dịch plugin...",
-      "buildSuccess": "[PocketIDE] Biên dịch thành công. Tạo phar trong thư mục plugins.",
-      "buildFailed": "[PocketIDE] Biên dịch thất bại với {{count}} lỗi."
+      "errorStart": "[Deepslate] Lỗi khi khởi động server: {{err}}",
+      "errorStop": "[Deepslate] Lỗi khi dừng server: {{err}}",
+      "startBuild": "[Deepslate] Bắt đầu biên dịch plugin...",
+      "buildSuccess": "[Deepslate] Biên dịch thành công. Tạo phar trong thư mục plugins.",
+      "buildFailed": "[Deepslate] Biên dịch thất bại với {{count}} lỗi."
     }
   },
   "cloneProject": {
@@ -473,7 +474,7 @@
   },
   "projectSettings": {
     "title": "Cài đặt dự án",
-    "subtitle": "Lưu trong .pocketide/project.json",
+    "subtitle": "Lưu trong .deepslate/project.json",
     "nameLabel": "Tên plugin",
     "versionLabel": "Phiên bản plugin",
     "authorLabel": "Tác giả",
@@ -556,7 +557,7 @@
     "enableQueryDesc": "Cho phép các công cụ quét thấy trạng thái server.",
     "envParamsTitle": "Tham số môi trường",
     "envParamsDesc": "Xem các thư mục trình biên dịch và tuỳ chọn lưu trữ cục bộ.",
-    "cacheDirLabel": "Thư mục cache gốc (.pocketide)",
+    "cacheDirLabel": "Thư mục cache gốc (.deepslate)",
     "dataMaintenanceTitle": "Bảo trì dữ liệu:",
     "btnClearTemp": "Xóa tệp tạm thời",
     "btnResetEnv": "Đặt lại toàn bộ môi trường",
@@ -566,7 +567,7 @@
       "downloadFailed": "Lỗi khi tải phiên bản {{version}}: {{err}}",
       "confirmDelete": "Bạn có chắc muốn xóa phiên bản {{version}}?",
       "confirmReset": "Bạn có chắc muốn đặt lại hoàn toàn môi trường? Tất cả các phiên bản đã tải sẽ bị xóa.",
-      "startFailed": "[PocketIDE] Lỗi khi khởi động server: {{err}}"
+      "startFailed": "[Deepslate] Lỗi khi khởi động server: {{err}}"
     }
   },
   "pluginYml": {
@@ -646,43 +647,6 @@
       "permissionDuplicateTitle": "Quyền trùng lặp"
     }
   },
-  "license": {
-    "title": "Kích hoạt Giấy phép",
-    "subtitle": "Để tiếp tục sử dụng PocketIDE, vui lòng kích hoạt giấy phép nhà phát triển của bạn.",
-    "tabAccount": "Kích hoạt bằng Tài khoản",
-    "tabToken": "Kích hoạt bằng Token",
-    "emailLabel": "Địa chỉ Email",
-    "passwordLabel": "Mật khẩu",
-    "tokenLabel": "Token Giấy phép (Base64)",
-    "activateBtn": "Kích hoạt PocketIDE",
-    "verifying": "Đang xác minh giấy phép...",
-    "successMsg": "Giấy phép được kích hoạt thành công! Đang khởi động PocketIDE...",
-    "errorPrefix": "Lỗi: ",
-    "machineIdLabel": "Mã định danh Phần cứng (HWID):",
-    "copyHwid": "Sao chép HWID",
-    "copied": "Đã sao chép!",
-    "buyText": "Chưa có giấy phép? Lấy một cái tại",
-    "buyLink": "pocketide.com",
-    "tokenDesc": "Bạn có thể tìm thấy token mã hóa đã ký của mình trong bảng điều khiển PocketIDE.",
-    "fillAllFields": "Vui lòng điền tất cả các trường",
-    "serverActivationFailed": "Không kích hoạt được từ máy chủ",
-    "noTokenReceived": "Không nhận được token giấy phép từ máy chủ",
-    "enterToken": "Vui lòng nhập token giấy phép của bạn",
-    "invalidToken": "Token giấy phép không hợp lệ",
-    "unknownError": "Lỗi không xác định",
-    "profileTitle": "Hồ sơ Nhà phát triển",
-    "activeDeveloper": "Giấy phép Nhà phát triển Hoạt động",
-    "statusActive": "Hoạt động",
-    "hwidLabel": "Mã định danh Phần cứng (HWID)",
-    "expirationLabel": "Ngày Hết hạn",
-    "daysRemaining": "ngày còn lại",
-    "issuedLabel": "Ngày Phát hành",
-    "typeLabel": "Mức Giấy phép",
-    "deactivate": "Vô hiệu hóa Giấy phép",
-    "confirmDeactivateTitle": "Vô hiệu hóa Giấy phép?",
-    "confirmDeactivateDesc": "Bạn có chắc chắn muốn vô hiệu hóa và xóa giấy phép của mình khỏi hệ thống này không? PocketIDE sẽ bị khóa và quay lại màn hình kích hoạt.",
-    "noLicenseFound": "Không tìm thấy giấy phép nhà phát triển có hiệu lực trên hệ thống này."
-  },
   "blueprintModal": {
     "title": "Blueprint mới",
     "subtitle": "Tạo mã gi᪥p mội căn bản cho PocketMine-MP",
@@ -699,5 +663,13 @@
     "create": "Tạo mã",
     "errorName": "Vui lòng nhập tên lớp chữ số hợp lệ (không có khoảng trắng).",
     "errorFields": "Vui lòng điền đầy đủ tất cả các trường bắt buộc."
+  },
+  "updater": {
+    "title": "Software Update",
+    "newVersionMessage": "A new version ({{version}}) is available. Would you like to update now?",
+    "updateButton": "Update",
+    "downloadingMessage": "Downloading update... The application will restart automatically when complete.",
+    "noUpdatesMessage": "You are running the latest version of Deepslate.",
+    "errorMessage": "Failed to check for updates: "
   }
 }

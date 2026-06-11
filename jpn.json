@@ -13,14 +13,15 @@
     "ok": "OK"
   },
   "welcome": {
-    "title": "PocketIDEへおかえりなさい",
+    "title": "Deepslateへおかえりなさい",
     "subtitle": "PocketMine-MPプラグインのための開発環境",
     "getStarted": "はじめる",
     "newProject": "新しいプロジェクト",
     "openFolder": "プロジェクトフォルダを開く",
     "cloneRepo": "リポジトリをクローン",
     "recentProjects": "最近のプロジェクト",
-    "noRecentProjects": "最近のプロジェクトはありません"
+    "noRecentProjects": "最近のプロジェクトはありません",
+    "removeRecentProject": "リストから削除"
   },
   "bottom": {
     "consoleTab": "コンソール",
@@ -74,7 +75,7 @@
     "placeholderRunning": "サーバーコマンドを入力（例: help, op, stop）してEnterを押してください...",
     "placeholderInactive": "コマンドを送信するにはサーバーを起動してください...",
     "sendCommand": "コマンドを送信",
-    "errorSendCommand": "[PocketIDE] コマンド送信時のエラー: {{err}}",
+    "errorSendCommand": "[Deepslate] コマンド送信時のエラー: {{err}}",
     "logsSavedSuccess": "コンソールログが {{path}} に正常に保存されました"
   },
   "status": {
@@ -214,7 +215,8 @@
       "header": "ヘルプ",
       "docs": "PMMPドキュメント",
       "shortcuts": "キーボードショートカット",
-      "about": "PocketIDEについて"
+      "checkForUpdates": "更新を確認...",
+      "about": "Deepslateについて"
     },
     "themes": {
       "header": "テーマ",
@@ -246,22 +248,21 @@
     "newFolderPlaceholder": "新しいフォルダー"
   },
   "about": {
-    "title": "PocketIDEについて",
+    "title": "Deepslateについて",
     "version": "バージョン {{version}} (Beta)",
     "desc": "PHPでPocketMine-MP用プラグインの作成、デバッグ、パッケージ化を簡素化する統合開発環境です。",
     "engine": "Tauriエンジン",
     "ui": "ユーザーインターフェース",
     "editor": "組み込みエディタ",
     "support": "PM APIサポート",
-    "created": "PocketIDEチームによって作成"
+    "created": "Created by ImAMadDev (github.com/ImAMadDev)"
   },
   "settings": {
-    "title": "PocketIDE設定",
+    "title": "Deepslate設定",
     "subtitle": "グローバルなエディタ設定と環境の挙動",
     "editorTab": "エディタ",
     "appearanceTab": "外観",
     "behaviorTab": "動作",
-    "licenseTab": "ライセンスとプロフィール",
     "fontFamily": "フォントファミリー",
     "fontSize": "フォントサイズ ({{size}}px)",
     "lineHeight": "行の高さ ({{height}}px)",
@@ -293,7 +294,7 @@
     "sidebarPositionLeft": "左",
     "sidebarPositionRight": "右",
     "terminalFontSize": "コンソールフォントサイズ ({{size}}px)",
-    "themeDesc": "テーマを変更するとMonacoエディタ、ドロップダウン、モーダル、PocketIDEターミナル背景の配色が即座に変更されます。",
+    "themeDesc": "テーマを変更するとMonacoエディタ、ドロップダウン、モーダル、Deepslateターミナル背景の配色が即座に変更されます。",
     "autoSave": "自動保存",
     "autoSaveOff": "無効 (off)",
     "autoSaveAfterDelay": "遅延後 (afterDelay)",
@@ -383,7 +384,7 @@
       "openProjectFirst": "先にプラグインプロジェクトを開いてください。",
       "openProjectFirstServer": "先にプラグインプロジェクトを開いてサーバーを実行してください。",
       "noVersionsInstalled": "PocketMine-MPのバージョンがインストールされていません。バージョンマネージャーでインストールしてください。",
-      "versionNotInstalled": "[PocketIDE] プロジェクトのバージョン ({{projectVersion}}) はインストールされていません。インストール済みのバージョンを使用します: {{installedVersion}}",
+      "versionNotInstalled": "[Deepslate] プロジェクトのバージョン ({{projectVersion}}) はインストールされていません。インストール済みのバージョンを使用します: {{installedVersion}}",
       "cacheCleaned": "一時キャッシュをクリアしました。",
       "resetSuccess": "環境を正常にリセットしました。"
     },
@@ -396,11 +397,11 @@
       "resetEnv": "環境をリセット"
     },
     "logs": {
-      "errorStart": "[PocketIDE] サーバー起動エラー: {{err}}",
-      "errorStop": "[PocketIDE] サーバー停止エラー: {{err}}",
-      "startBuild": "[PocketIDE] プラグインのコンパイルを開始します...",
-      "buildSuccess": "[PocketIDE] コンパイル成功。pluginsフォルダにPharが作成されました。",
-      "buildFailed": "[PocketIDE] コンパイルは {{count}} 件のエラーで失敗しました。"
+      "errorStart": "[Deepslate] サーバー起動エラー: {{err}}",
+      "errorStop": "[Deepslate] サーバー停止エラー: {{err}}",
+      "startBuild": "[Deepslate] プラグインのコンパイルを開始します...",
+      "buildSuccess": "[Deepslate] コンパイル成功。pluginsフォルダにPharが作成されました。",
+      "buildFailed": "[Deepslate] コンパイルは {{count}} 件のエラーで失敗しました。"
     }
   },
   "cloneProject": {
@@ -473,7 +474,7 @@
   },
   "projectSettings": {
     "title": "プロジェクト設定",
-    "subtitle": ".pocketide/project.jsonに保存",
+    "subtitle": ".deepslate/project.jsonに保存",
     "nameLabel": "プラグイン名",
     "versionLabel": "プラグインバージョン",
     "authorLabel": "作成者",
@@ -556,7 +557,7 @@
     "enableQueryDesc": "スキャナがサーバーの状態を取得できるようにします。",
     "envParamsTitle": "環境パラメータ",
     "envParamsDesc": "コンパイラのディレクトリやローカルストレージのオプションを表示します。",
-    "cacheDirLabel": "基本キャッシュディレクトリ (.pocketide)",
+    "cacheDirLabel": "基本キャッシュディレクトリ (.deepslate)",
     "dataMaintenanceTitle": "データメンテナンス：",
     "btnClearTemp": "一時ファイルを削除",
     "btnResetEnv": "環境を完全にリセット",
@@ -566,7 +567,7 @@
       "downloadFailed": "バージョン {{version}} のダウンロードエラー: {{err}}",
       "confirmDelete": "バージョン {{version}} を削除してもよいですか？",
       "confirmReset": "環境を完全にリセットしてもよいですか？ダウンロードしたすべてのバージョンが削除されます。",
-      "startFailed": "[PocketIDE] サーバー起動エラー: {{err}}"
+      "startFailed": "[Deepslate] サーバー起動エラー: {{err}}"
     }
   },
   "pluginYml": {
@@ -646,43 +647,6 @@
       "permissionDuplicateTitle": "重複した権限"
     }
   },
-  "license": {
-    "title": "ライセンス認証",
-    "subtitle": "PocketIDEを引き続き使用するには、開発者ライセンスを有効化してください。",
-    "tabAccount": "アカウントで有効化",
-    "tabToken": "トークンで有効化",
-    "emailLabel": "メールアドレス",
-    "passwordLabel": "パスワード",
-    "tokenLabel": "ライセンストークン（Base64）",
-    "activateBtn": "PocketIDEを有効化",
-    "verifying": "ライセンスを検証中...",
-    "successMsg": "ライセンスが正常に有効化されました！PocketIDEを起動しています...",
-    "errorPrefix": "エラー: ",
-    "machineIdLabel": "ハードウェア識別子（HWID）:",
-    "copyHwid": "HWIDをコピー",
-    "copied": "コピーしました！",
-    "buyText": "まだライセンスを持っていませんか？ここで取得してください",
-    "buyLink": "pocketide.com",
-    "tokenDesc": "署名された暗号化トークンは、PocketIDEダッシュボード内にあります。",
-    "fillAllFields": "すべてのフィールドに入力してください",
-    "serverActivationFailed": "サーバーからの認証に失敗しました",
-    "noTokenReceived": "サーバーからライセンストークンが受信されませんでした",
-    "enterToken": "ライセンストークンを入力してください",
-    "invalidToken": "ライセンストークンが無効です",
-    "unknownError": "不明なエラー",
-    "profileTitle": "開発者プロフィール",
-    "activeDeveloper": "アクティブな開発者ライセンス",
-    "statusActive": "アクティブ",
-    "hwidLabel": "ハードウェア識別子（HWID）",
-    "expirationLabel": "有効期限",
-    "daysRemaining": "日残っています",
-    "issuedLabel": "発行日",
-    "typeLabel": "ライセンスティア",
-    "deactivate": "ライセンスを無効化",
-    "confirmDeactivateTitle": "ライセンスを無効化しますか？",
-    "confirmDeactivateDesc": "このシステムからライセンスを無効化して削除してもよろしいですか？PocketIDEがロックされ、認証画面に戻ります。",
-    "noLicenseFound": "このシステムで有効な開発者ライセンスが見つかりません。"
-  },
   "blueprintModal": {
     "title": "新しいBlueprint",
     "subtitle": "PocketMine-MPのボイラープレートを生成します",
@@ -699,5 +663,13 @@
     "create": "コードを生成",
     "errorName": "有効な詳数字クラス名を入力してください（スペースなし）。",
     "errorFields": "一似するすべての必須項目を入力してください。"
+  },
+  "updater": {
+    "title": "Software Update",
+    "newVersionMessage": "A new version ({{version}}) is available. Would you like to update now?",
+    "updateButton": "Update",
+    "downloadingMessage": "Downloading update... The application will restart automatically when complete.",
+    "noUpdatesMessage": "You are running the latest version of Deepslate.",
+    "errorMessage": "Failed to check for updates: "
   }
 }

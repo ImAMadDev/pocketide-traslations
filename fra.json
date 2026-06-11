@@ -13,14 +13,15 @@
     "ok": "OK"
   },
   "welcome": {
-    "title": "Bienvenue sur PocketIDE",
+    "title": "Bienvenue sur Deepslate",
     "subtitle": "L'environnement de développement pour les plugins PocketMine-MP",
     "getStarted": "Commencer",
     "newProject": "Nouveau projet",
     "openFolder": "Ouvrir le dossier du projet",
     "cloneRepo": "Cloner le dépôt",
     "recentProjects": "Projets récents",
-    "noRecentProjects": "Aucun projet récent"
+    "noRecentProjects": "Aucun projet récent",
+    "removeRecentProject": "Supprimer de la liste"
   },
   "bottom": {
     "consoleTab": "Console",
@@ -74,7 +75,7 @@
     "placeholderRunning": "Tapez une commande serveur (ex. help, op, stop) puis appuyez sur Entrée...",
     "placeholderInactive": "Démarrez le serveur pour envoyer des commandes...",
     "sendCommand": "Envoyer la commande",
-    "errorSendCommand": "[PocketIDE] Erreur lors de l'envoi de la commande : {{err}}",
+    "errorSendCommand": "[Deepslate] Erreur lors de l'envoi de la commande : {{err}}",
     "logsSavedSuccess": "Les journaux de la console ont été enregistrés avec succès dans {{path}}"
   },
   "status": {
@@ -214,7 +215,8 @@
       "header": "Aide",
       "docs": "Documentation PMMP",
       "shortcuts": "Raccourcis clavier",
-      "about": "À propos de PocketIDE"
+      "checkForUpdates": "Vérifier les mises à jour...",
+      "about": "À propos de Deepslate"
     },
     "themes": {
       "header": "Thèmes",
@@ -246,22 +248,21 @@
     "newFolderPlaceholder": "nouveau-dossier"
   },
   "about": {
-    "title": "À propos de PocketIDE",
+    "title": "À propos de Deepslate",
     "version": "Version {{version}} (Beta)",
     "desc": "Un environnement de développement intégré conçu pour simplifier la création, le débogage et le packaging de plugins pour PocketMine-MP en PHP.",
     "engine": "Moteur Tauri",
     "ui": "Interface utilisateur",
     "editor": "Éditeur intégré",
     "support": "Support API PM",
-    "created": "Créé par l'équipe PocketIDE"
+    "created": "Created by ImAMadDev (github.com/ImAMadDev)"
   },
   "settings": {
-    "title": "Préférences PocketIDE",
+    "title": "Préférences Deepslate",
     "subtitle": "Paramètres globaux de l'éditeur et comportement de l'environnement",
     "editorTab": "Éditeur",
     "appearanceTab": "Apparence",
     "behaviorTab": "Comportement",
-    "licenseTab": "Licence et Profil",
     "fontFamily": "Police",
     "fontSize": "Taille de la police ({{size}}px)",
     "lineHeight": "Hauteur de ligne ({{height}}px)",
@@ -293,7 +294,7 @@
     "sidebarPositionLeft": "Gauche",
     "sidebarPositionRight": "Droite",
     "terminalFontSize": "Taille de police de la console ({{size}}px)",
-    "themeDesc": "Changer le thème modifiera immédiatement le schéma de couleurs de l'éditeur Monaco, des menus déroulants, des modaux et du fond du terminal PocketIDE.",
+    "themeDesc": "Changer le thème modifiera immédiatement le schéma de couleurs de l'éditeur Monaco, des menus déroulants, des modaux et du fond du terminal Deepslate.",
     "autoSave": "Enregistrement automatique",
     "autoSaveOff": "Désactivé (off)",
     "autoSaveAfterDelay": "Après un délai (afterDelay)",
@@ -383,7 +384,7 @@
       "openProjectFirst": "Veuillez d'abord ouvrir un projet de plugin.",
       "openProjectFirstServer": "Veuillez d'abord ouvrir un projet de plugin pour exécuter le serveur.",
       "noVersionsInstalled": "Aucune version de PocketMine-MP installée. Veuillez installer une version dans le gestionnaire de versions.",
-      "versionNotInstalled": "[PocketIDE] La version du projet ({{projectVersion}}) n'est pas installée. Utilisation de la version installée : {{installedVersion}}",
+      "versionNotInstalled": "[Deepslate] La version du projet ({{projectVersion}}) n'est pas installée. Utilisation de la version installée : {{installedVersion}}",
       "cacheCleaned": "Cache temporaire nettoyé.",
       "resetSuccess": "Environnement réinitialisé avec succès."
     },
@@ -396,11 +397,11 @@
       "resetEnv": "Réinitialiser l'environnement"
     },
     "logs": {
-      "errorStart": "[PocketIDE] Erreur lors du démarrage du serveur : {{err}}",
-      "errorStop": "[PocketIDE] Erreur lors de l'arrêt du serveur : {{err}}",
-      "startBuild": "[PocketIDE] Démarrage de la compilation du plugin...",
-      "buildSuccess": "[PocketIDE] Compilation réussie. Phar créé dans le dossier plugins.",
-      "buildFailed": "[PocketIDE] La compilation a échoué avec {{count}} erreur(s)."
+      "errorStart": "[Deepslate] Erreur lors du démarrage du serveur : {{err}}",
+      "errorStop": "[Deepslate] Erreur lors de l'arrêt du serveur : {{err}}",
+      "startBuild": "[Deepslate] Démarrage de la compilation du plugin...",
+      "buildSuccess": "[Deepslate] Compilation réussie. Phar créé dans le dossier plugins.",
+      "buildFailed": "[Deepslate] La compilation a échoué avec {{count}} erreur(s)."
     }
   },
   "cloneProject": {
@@ -473,7 +474,7 @@
   },
   "projectSettings": {
     "title": "Paramètres du projet",
-    "subtitle": "Enregistré dans .pocketide/project.json",
+    "subtitle": "Enregistré dans .deepslate/project.json",
     "nameLabel": "Nom du plugin",
     "versionLabel": "Version du plugin",
     "authorLabel": "Auteur",
@@ -556,7 +557,7 @@
     "enableQueryDesc": "Permet aux scanners de voir l'état du serveur.",
     "envParamsTitle": "Paramètres de l'environnement",
     "envParamsDesc": "Afficher les répertoires du compilateur et les options de stockage local.",
-    "cacheDirLabel": "Répertoire de cache de base (.pocketide)",
+    "cacheDirLabel": "Répertoire de cache de base (.deepslate)",
     "dataMaintenanceTitle": "Maintenance des données :",
     "btnClearTemp": "Supprimer les fichiers temporaires",
     "btnResetEnv": "Réinitialiser l'environnement entier",
@@ -566,7 +567,7 @@
       "downloadFailed": "Erreur lors du téléchargement de la version {{version}} : {{err}}",
       "confirmDelete": "Êtes-vous sûr de vouloir supprimer la version {{version}} ?",
       "confirmReset": "Êtes-vous sûr de vouloir réinitialiser complètement l'environnement ? Toutes les versions téléchargées seront supprimées.",
-      "startFailed": "[PocketIDE] Erreur lors du démarrage du serveur : {{err}}"
+      "startFailed": "[Deepslate] Erreur lors du démarrage du serveur : {{err}}"
     }
   },
   "pluginYml": {
@@ -646,43 +647,6 @@
       "permissionDuplicateTitle": "Permission dupliquée"
     }
   },
-  "license": {
-    "title": "Activation de Licence",
-    "subtitle": "Pour continuer à utiliser PocketIDE, veuillez activer votre licence développeur.",
-    "tabAccount": "Activer avec Compte",
-    "tabToken": "Activer avec Token",
-    "emailLabel": "Adresse E-mail",
-    "passwordLabel": "Mot de passe",
-    "tokenLabel": "Jeton de Licence (Base64)",
-    "activateBtn": "Activer PocketIDE",
-    "verifying": "Validation de la licence...",
-    "successMsg": "Licence activée avec succès ! Lancement de PocketIDE...",
-    "errorPrefix": "Erreur : ",
-    "machineIdLabel": "Identifiant Matériel (HWID) :",
-    "copyHwid": "Copier HWID",
-    "copied": "Copié !",
-    "buyText": "Pas encore de licence ? Obtenez-en une sur",
-    "buyLink": "pocketide.com",
-    "tokenDesc": "Vous pouvez trouver votre jeton cryptographique signé dans votre tableau de bord PocketIDE.",
-    "fillAllFields": "Veuillez remplir tous les champs",
-    "serverActivationFailed": "Impossible d'activer depuis le serveur",
-    "noTokenReceived": "Aucun jeton de licence reçu du serveur",
-    "enterToken": "Veuillez entrer votre jeton de licence",
-    "invalidToken": "Le jeton de licence est invalide",
-    "unknownError": "Erreur inconnue",
-    "profileTitle": "Profil Développeur",
-    "activeDeveloper": "Licence Développeur Active",
-    "statusActive": "Actif",
-    "hwidLabel": "Identifiant Matériel (HWID)",
-    "expirationLabel": "Date d'Expiration",
-    "daysRemaining": "jours restants",
-    "issuedLabel": "Date d'Émission",
-    "typeLabel": "Niveau de Licence",
-    "deactivate": "Désactiver la Licence",
-    "confirmDeactivateTitle": "Désactiver la Licence ?",
-    "confirmDeactivateDesc": "Êtes-vous sûr de vouloir désactiver et supprimer votre licence de ce système ? PocketIDE se verrouillera et revenir à l'écran d'activation.",
-    "noLicenseFound": "Aucune licence de développeur active trouvée sur ce système."
-  },
   "blueprintModal": {
     "title": "Nouveau Blueprint",
     "subtitle": "Générer du code passe-partout pour PocketMine-MP",
@@ -697,7 +661,15 @@
     "typeListener": "Écouteur d'Événement (Implémente Listener)",
     "typeTask": "Tâche du Planificateur (Étend Task)",
     "create": "Générer le Code",
-    "errorName": "Veuillez entrer un nom de classe alphanumérique valide (pas d'espaces).",
+    "errorName": "Veuillez entrer un nom de classe alphanumérique valide (sans espaces).",
     "errorFields": "Veuillez remplir tous les champs obligatoires."
+  },
+  "updater": {
+    "title": "Mise à jour Logicielle",
+    "newVersionMessage": "Une nouvelle version ({{version}}) est disponible. Voulez-vous mettre à jour maintenant?",
+    "updateButton": "Mettre à jour",
+    "downloadingMessage": "Téléchargement de la mise à jour en cours... L'application redémarrera automatiquement une fois terminée.",
+    "noUpdatesMessage": "Vous utilisez la version la plus récente de Deepslate.",
+    "errorMessage": "Échec de la vérification des mises à jour: "
   }
 }
